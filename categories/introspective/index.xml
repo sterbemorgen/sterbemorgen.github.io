@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on sterbe morgen</title>
-    <link>https://sterbemorgen.github.io/posts/</link>
-    <description>Recent content in Posts on sterbe morgen</description>
+    <title>Introspective on sterbe morgen</title>
+    <link>https://sterbemorgen.github.io/categories/introspective/</link>
+    <description>Recent content in Introspective on sterbe morgen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sterbemorgen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sterbemorgen.github.io/categories/introspective/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>💧</title>
       <link>https://sterbemorgen.github.io/posts/introspective/</link>
@@ -39,26 +39,6 @@
       <guid>https://sterbemorgen.github.io/posts/introspective/%E9%A0%AD%E7%97%9B/</guid>
       <description>&lt;p&gt;注意到和頭痛相伴有段日子了，不知道什麼時候開始，頭痛成了我習以為常的事情。&lt;/p&gt;
 &lt;p&gt;看到有個人發貼說她覺得頭痛，因為之前有延誤就醫的不好體驗，果斷去醫院掛了急診，結果救了自己一命。醫生告訴她百分之九十九的病人都會忽視這個頭痛，自己吃點止痛藥睡過去再也醒不來，所以想知道她如何做出急診這個決定。我看到她分享的貼子立刻轉給ww說，我就是注定該死的那波人。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>appreciation</title>
-      <link>https://sterbemorgen.github.io/posts/appreciation/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/appreciation/</guid>
-      <description>&lt;p&gt;This is the appreciation category.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Categories</title>
-      <link>https://sterbemorgen.github.io/posts/categories/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/categories/</guid>
-      <description>&lt;h2 id=&#34;categories&#34;&gt;Categories&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/perusal/&#34;&gt;Perusal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/appreciation/&#34;&gt;Appreciation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/introspective/&#34;&gt;Introspective&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/existence/&#34;&gt;Existence&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

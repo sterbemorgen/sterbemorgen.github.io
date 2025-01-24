@@ -22,5 +22,40 @@
       <guid>https://sterbemorgen.github.io/tags/news/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dementor</title>
+      <link>https://sterbemorgen.github.io/tags/dementor/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/tags/dementor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Healing</title>
+      <link>https://sterbemorgen.github.io/tags/self-healing/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/tags/self-healing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ARR</title>
+      <link>https://sterbemorgen.github.io/tags/arr/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/tags/arr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Headache</title>
+      <link>https://sterbemorgen.github.io/tags/headache/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/tags/headache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rumination OCD</title>
+      <link>https://sterbemorgen.github.io/tags/rumination-ocd/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/tags/rumination-ocd/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
