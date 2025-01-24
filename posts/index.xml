@@ -28,19 +28,5 @@
 &lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/existence/&#34;&gt;Existence&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>https://sterbemorgen.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://sterbemorgen.github.io/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
   </channel>
 </rss>

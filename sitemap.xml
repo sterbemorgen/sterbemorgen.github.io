@@ -2,23 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sterbemorgen.github.io/about/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sterbemorgen.github.io/posts/perusal/</loc>
     <lastmod>2023-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sterbemorgen.github.io/posts/perusal/papermod-installation/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/posts/perusal/papermod-features/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/posts/perusal/papermod-icons/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/posts/perusal/papermod-variables/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>https://sterbemorgen.github.io/about/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sterbemorgen.github.io/</loc>
     <lastmod>2025-01-24T00:00:00+00:00</lastmod>
@@ -49,30 +37,6 @@
   </url><url>
     <loc>https://sterbemorgen.github.io/posts/categories/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/tags/docs/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/tags/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/posts/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sterbemorgen.github.io/posts/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sterbemorgen.github.io/archives/</loc>
   </url><url>
