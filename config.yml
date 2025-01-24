@@ -36,11 +36,12 @@ params:
     - name: "email"
       url: "Mailto: sterbemorgen@proton.me"
   assets:
-      favicon: "favicon.jpg"
-      favicon16x16: "favicon.jpg"
-      favicon32x32: "favicon.jpg"
-      apple_touch_icon: "favicon.jpg"
-      safari_pinned_tab: "favicon.jpg"
+    favicon: "favicon.jpg"
+    favicon16x16: "favicon.jpg"
+    favicon32x32: "favicon.jpg"
+    apple_touch_icon: "favicon.jpg"
+    safari_pinned_tab: "favicon.jpg"
+
 
 menu:
   main:
