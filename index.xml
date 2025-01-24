@@ -10,57 +10,69 @@
     <atom:link href="https://sterbemorgen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://sterbemorgen.github.io/posts/about/</link>
+      <link>https://sterbemorgen.github.io/about/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/about/</guid>
-      <description>&lt;h1 id=&#34;mich&#34;&gt;mich&lt;/h1&gt;
-&lt;p&gt;Khonzy
-A whimsical being.
-A vagabond by nature.
-Endowed with ASD, ADHD, and a profound tendency towards procrastination.&lt;/p&gt;
-&lt;hr&gt;</description>
+      <guid>https://sterbemorgen.github.io/about/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-world&#34;&gt;welcome to my world&lt;/h1&gt;
+&lt;p&gt;Hark! Friends and strangers, welcome to my world.&lt;br&gt;
+This, my new clandestine lair, is where I document my observations of mankind.&lt;br&gt;
+I&amp;rsquo;ll take a cue from Константин Георгиевич Паустовский and say what&amp;rsquo;s on my mind, even if it&amp;rsquo;s been said before. As Bruno Schulz so eloquently stated, to retell stories that have already been heard.&lt;br&gt;
+I shall not shy away from expressing ideas that may seem trivial or worn-out. But rather, strive to present the world as I perceive it through my own eyes.&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🤢</title>
+      <link>https://sterbemorgen.github.io/posts/perusal/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/posts/perusal/</guid>
+      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
     </item>
     <item>
       <title>Install / Update PaperMod</title>
-      <link>https://sterbemorgen.github.io/posts/papermod/papermod-installation/</link>
+      <link>https://sterbemorgen.github.io/posts/perusal/papermod-installation/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/papermod/papermod-installation/</guid>
+      <guid>https://sterbemorgen.github.io/posts/perusal/papermod-installation/</guid>
       <description>Read aboout Install and Update instructions and sampled configuration templates</description>
     </item>
     <item>
       <title>Features / Mods</title>
-      <link>https://sterbemorgen.github.io/posts/papermod/papermod-features/</link>
+      <link>https://sterbemorgen.github.io/posts/perusal/papermod-features/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/papermod/papermod-features/</guid>
+      <guid>https://sterbemorgen.github.io/posts/perusal/papermod-features/</guid>
       <description>Learn About All Features in PaperMod</description>
     </item>
     <item>
-      <title>FAQs / How To&#39;s Guide</title>
-      <link>https://sterbemorgen.github.io/posts/papermod/papermod-faq/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/papermod/papermod-faq/</guid>
-      <description>We&amp;rsquo;ll try to answer frequently asked qestions by users.</description>
-    </item>
-    <item>
       <title>Social-Icons / Share-Icons</title>
-      <link>https://sterbemorgen.github.io/posts/papermod/papermod-icons/</link>
+      <link>https://sterbemorgen.github.io/posts/perusal/papermod-icons/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/papermod/papermod-icons/</guid>
+      <guid>https://sterbemorgen.github.io/posts/perusal/papermod-icons/</guid>
       <description>List of all Icons supported by PaperMod</description>
     </item>
     <item>
       <title>Variables | Front Matter</title>
-      <link>https://sterbemorgen.github.io/posts/papermod/papermod-variables/</link>
+      <link>https://sterbemorgen.github.io/posts/perusal/papermod-variables/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/papermod/papermod-variables/</guid>
+      <guid>https://sterbemorgen.github.io/posts/perusal/papermod-variables/</guid>
       <description>List of Front Matter variables used by PaperMod</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://sterbemorgen.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>appreciation</title>
+      <link>https://sterbemorgen.github.io/posts/appreciation/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/posts/appreciation/</guid>
+      <description>&lt;p&gt;This is the appreciation category.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Categories</title>
+      <link>https://sterbemorgen.github.io/posts/categories/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/posts/categories/</guid>
+      <description>&lt;h2 id=&#34;categories&#34;&gt;Categories&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/perusal/&#34;&gt;Perusal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/appreciation/&#34;&gt;Appreciation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/introspective/&#34;&gt;Introspective&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/existence/&#34;&gt;Existence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Rich Content and Shortcodes</title>
@@ -75,13 +87,6 @@ Endowed with ASD, ADHD, and a profound tendency towards procrastination.&lt;/p&g
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://sterbemorgen.github.io/posts/math-typesetting/</guid>
       <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://sterbemorgen.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
     </item>
   </channel>
 </rss>

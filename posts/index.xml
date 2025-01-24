@@ -6,26 +6,27 @@
     <description>Recent content in Posts on sterbe morgen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sterbemorgen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://sterbemorgen.github.io/posts/about/</link>
-      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/about/</guid>
-      <description>&lt;h1 id=&#34;mich&#34;&gt;mich&lt;/h1&gt;
-&lt;p&gt;Khonzy
-A whimsical being.
-A vagabond by nature.
-Endowed with ASD, ADHD, and a profound tendency towards procrastination.&lt;/p&gt;
-&lt;hr&gt;</description>
+      <title>appreciation</title>
+      <link>https://sterbemorgen.github.io/posts/appreciation/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/posts/appreciation/</guid>
+      <description>&lt;p&gt;This is the appreciation category.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://sterbemorgen.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>Categories</title>
+      <link>https://sterbemorgen.github.io/posts/categories/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/posts/categories/</guid>
+      <description>&lt;h2 id=&#34;categories&#34;&gt;Categories&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/perusal/&#34;&gt;Perusal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/appreciation/&#34;&gt;Appreciation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/introspective/&#34;&gt;Introspective&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sterbemorgen.github.io/existence/&#34;&gt;Existence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Rich Content and Shortcodes</title>
@@ -40,13 +41,6 @@ Endowed with ASD, ADHD, and a profound tendency towards procrastination.&lt;/p&g
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://sterbemorgen.github.io/posts/math-typesetting/</guid>
       <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://sterbemorgen.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
     </item>
   </channel>
 </rss>
