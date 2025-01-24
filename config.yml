@@ -1,0 +1,13 @@
+baseURL: https://sterbemorgen.github.io/
+languageCode: en-us
+title: sterbe morgen
+subtitle: Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren.
+theme: "PaperMod"
+
+params:
+  contact:
+    email: info@example.org
+    phone: +1 202-555-1212
+
+ignoreLogs:
+  - 'warning-goldmark-raw-html'
