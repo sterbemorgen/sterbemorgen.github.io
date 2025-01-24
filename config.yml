@@ -3,3 +3,12 @@ languageCode: "en-us"
 title: "sterbe morgen"
 theme: "paperMod"
 
+hasCJKLanguage: true 
+enableInlineShortcodes: true
+enableEmoji: true 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
