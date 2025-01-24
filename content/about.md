@@ -2,7 +2,8 @@
 title: "About"
 date: 2025-01-24
 menu: main  # 这将把它添加到主菜单中
-weight: 1  # 菜单排序的优先级，数字越小越靠前
+weight: 3  # 菜单排序的优先级，数字越小越靠前
+comments: true
 ---
 # welcome to my world
 Hark! Friends and strangers, welcome to my world.<br> 
