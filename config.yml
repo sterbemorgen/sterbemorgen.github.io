@@ -35,6 +35,12 @@ params:
       url: "https://www.youtube.com/@sterbemorgen"
     - name: "email"
       url: "Mailto: sterbemorgen@proton.me"
+  assets:
+      favicon: "favicon.jpg"
+      favicon16x16: "favicon.jpg"
+      favicon32x32: "favicon.jpg"
+      apple_touch_icon: "favicon.jpg"
+      safari_pinned_tab: "favicon.jpg"
 
 menu:
   main:
@@ -60,13 +66,12 @@ ShowToc: true
 TocOpen: true
 
 comments:
-  provider: "utterances"
-  utterances:
-    repo: "sterbemorgen/sterbemorgen.github.io"
-    issue-term: "pathname"  # 用页面路径作为评论区的识别标志
-    theme: "preferred_color_scheme"  # 设置主题，保持与网站一致
-
-
+  provider: "giscus"
+  giscus:
+    repo: "sterbemorgen/sterbemorgen.github.io"  # 你的 GitHub 仓库
+    issue-term: "pathname"                       # 基于路径创建评论
+    theme: "preferred-color-scheme"              # 根据用户的颜色模式自动选择主题
+    crossorigin: "anonymous"                     # 跨域资源共享
 
 outputs:
   home:
