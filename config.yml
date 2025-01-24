@@ -1,13 +1,74 @@
-baseURL: https://sterbemorgen.github.io/
-languageCode: en-us
-title: sterbe morgen
-subtitle: Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren.
-theme: "PaperMod"
+baseURL: "https://sterbemorgen.github.io/"
+languageCode: "en-us"
+title: "sterbe morgen"
+theme: "paperMod"
 
+# Menu Configuration
+menu:
+  main:
+    - name: "About"
+      url: "/about/"
+      weight: 1
+    - name: "Achieves"
+      url: "/achieves/"
+      weight: 2
+    - name: "Search"
+      url: "/search/"
+      weight: 3
+
+  sidebar:
+    - name: "Perusal"
+      url: "/perusal/"
+      weight: 1
+    - name: "Appreciation"
+      url: "/appreciation/"
+      weight: 2
+    - name: "Introspective"
+      url: "/introspective/"
+      weight: 3
+    - name: "Existence"
+      url: "/existence/"
+      weight: 4
+
+# Home Configuration
 params:
-  contact:
-    email: info@example.org
-    phone: +1 202-555-1212
+  # Featured image and caption displayed on homepage
+  featured_image:
+    image: "/images/hero-image.jpg"  # Ensure this is the correct path for your image (it should be in /static/images/)
+    caption: "Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren."
 
-ignoreLogs:
-  - 'warning-goldmark-raw-html'
+  # Footer content with social links
+  footer:
+    copyright: "© 2025 sterbe morgen | Follow us on:"
+    social_links:
+      - icon: "instagram"
+        url: "https://instagram.com/siauyuih"
+      - icon: "youtube"
+        url: "https://www.youtube.com/@sterbemorgen"
+      - icon: "envelope"
+        url: "mailto:sterbemorgen@proton.me"
+  
+  # Social Media icons in footer
+  socialIcons:
+    enabled: true
+    icons:
+      - name: "Instagram"
+        url: "https://instagram.com/siauyuih"
+      - name: "YouTube"
+        url: "https://www.youtube.com/@sterbemorgen"
+      - name: "Email"
+        url: "mailto:sterbemorgen@proton.me"
+
+# Layout Settings
+layout:
+  sidebar:
+    enabled: true  # Ensure sidebar is enabled
+    position: left  # Sidebar on the left
+
+  main:
+    image_position: center  # Center align the main image
+    image_size: cover  # Make the image cover the screen
+
+# Additional Configurations (optional)
+disableAnalytics: false  # Set to true if you want to disable analytics
+disableComments: true  # Set to true to disable comments on posts
