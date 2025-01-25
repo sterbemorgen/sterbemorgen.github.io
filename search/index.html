@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,8 +13,8 @@
 <meta name="description" content="search">
 <meta name="author" content="">
 <link rel="canonical" href="https://sterbemorgen.github.io/search/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
-<script defer crossorigin="anonymous" src="/assets/js/search.2826037ddab446009aa4dc907d6f13e5fe42eaff23f43abcba31285b991e9c6d.js" integrity="sha256-KCYDfdq0RgCapNyQfW8T5f5C6v8j9Dq8ujEoW5kenG0="></script>
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
+<script defer crossorigin="anonymous" src="/assets/js/search.js"></script>
 <link rel="icon" href="https://sterbemorgen.github.io/otter.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sterbemorgen.github.io/otter.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sterbemorgen.github.io/otter.png">
@@ -110,9 +113,16 @@
   }
 }
 </script>
+    <title>
+        
+        sterbe morgen
+        
+    </title>
 </head>
 
 <body class="list" id="top">
+    <div id="app">
+        
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -153,7 +163,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://sterbemorgen.github.io/about/" title="About">
+                <a href="https://sterbemorgen.github.io/about" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -162,10 +172,30 @@
                     <span>Archives</span>
                 </a>
             </li>
+            <li>
+                <a href="https://sterbemorgen.github.io/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span class="active">Search</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
-<main class="main">
+
+
+        
+        <div id="sideContainer" class="side-container"><div id="sideContainer" class="side-container">
+    <div class="nav-link-list">
+        <a class="a-block nav-link-item" href="/perusal">perusal</a>
+        <a class="a-block nav-link-item" href="/appreciation">appreciation</a>
+        <a class="a-block nav-link-item" href="/introspective">introspective</a>
+        <a class="a-block nav-link-item" href="/existence">existence</a>
+    </div>
+</div>
+
+        </div>
+
+        
+        <main class="container">
 
 <header class="page-header">
     <h1>Search <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
@@ -182,7 +212,10 @@
         aria-label="search" type="search" autocomplete="off" maxlength="64">
     <ul id="searchResults" aria-label="search results"></ul>
 </div>
-    </main>
+        </main>
+    </div>
+
+    
     
 <footer class="footer">
         <span>&copy; 2025 <a href="https://sterbemorgen.github.io/">sterbe morgen</a></span> · 

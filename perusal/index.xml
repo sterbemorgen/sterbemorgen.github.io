@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>perusal on sterbe morgen</title>
-    <link>https://sterbemorgen.github.io/posts/perusal/</link>
+    <link>https://sterbemorgen.github.io/perusal/</link>
     <description>Recent content in perusal on sterbe morgen</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sterbemorgen.github.io/posts/perusal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sterbemorgen.github.io/perusal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🤢</title>
-      <link>https://sterbemorgen.github.io/posts/perusal/</link>
+      <link>https://sterbemorgen.github.io/perusal/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://sterbemorgen.github.io/posts/perusal/</guid>
+      <guid>https://sterbemorgen.github.io/perusal/</guid>
       <description>Read aboout Install and Update instructions and sampled configuration templates</description>
     </item>
   </channel>
