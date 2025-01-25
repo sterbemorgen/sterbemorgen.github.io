@@ -1,0 +1,5 @@
+---
+title: introspective
+summary: 
+description: 
+---

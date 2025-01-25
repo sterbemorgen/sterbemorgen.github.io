@@ -1,8 +1,7 @@
 ---
 title: "About"
 date: 2025-01-24
-menu: main  # 这将把它添加到主菜单中
-weight: 3  # 菜单排序的优先级，数字越小越靠前
+weight:
 comments: true
 ---
 # welcome to my world
@@ -13,7 +12,7 @@ I shall not shy away from expressing ideas that may seem trivial or worn-out. Bu
 
 # mich
 
-Khonzy<br>  
+Khonzy<br>
 A whimsical being.<br> 
 A vagabond by nature.<br>
 Endowed with ASD, ADHD, and a profound tendency towards procrastination.

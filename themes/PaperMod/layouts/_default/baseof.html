@@ -7,6 +7,11 @@
 
 <head>
     {{- partial "head.html" . }}
+    <title>
+        {{ block "title" . }}
+        {{ .Site.Title }}
+        {{ end }}
+    </title>
 </head>
 
 <body class="
@@ -17,10 +22,25 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- partialCached "header.html" . .Page -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
+    <div id="app">
+        <!-- Sidebar Section -->
+        <div id="sideContainer" class="side-container">
+            <div class="nav-link-list">
+                <a class="a-block nav-link-item" href="/">perusal</a>
+                <a class="a-block nav-link-item" href="/appreciation">appreciation</a>
+                <a class="a-block nav-link-item" href="/introspective">introspective</a>
+                <a class="a-block nav-link-item" href="/existence">existence</a>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <main class="container">
+            {{- block "main" . }}
+            {{- end }}
+        </main>
+    </div>
+
+    <!-- Footer Section -->
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 

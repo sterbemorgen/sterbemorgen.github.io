@@ -1,5 +1,5 @@
-/*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
-Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
-*/
+.bubblegum-sans-regular {
+  font-family: "Bubblegum Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}

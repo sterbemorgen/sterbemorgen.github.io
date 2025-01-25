@@ -3,17 +3,36 @@ languageCode: "en-us"
 title: "sterbe morgen"
 theme: "PaperMod"
 
-hasCJKLanguage: true
-enableInlineShortcodes: true
-enableEmoji: true
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-
 params:
+  backTopIcon: "/icons/neuroplasticity.png"
+  ShowReadingTime: true
+  hasCJKLanguage: true
+  enableInlineShortcodes: true
+  enableEmoji: true
+  enableRobotsTXT: true
+  buildDrafts: false
+  buildFuture: false
+  buildExpired: false
+  enableEmoji: true
+  pygmentsUseClasses: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+  giscus:
+    repo: "sterbemorgen/sterbemorgen.github.io"
+    repo_id: "R_kgDONvALpQ"
+    category: "Announcements"
+    category_id: "DIC_kwDONvALpc4CmT8P"
+    mapping: "pathname"
+    strict: false
+    reactions_enabled: true
+    emit_metadata: false
+    input_position: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "en"
+    crossorigin: "anonymous"
+    async: true
+
   profileMode:
     enabled: true
     title: "sterbe morgen"
@@ -22,12 +41,8 @@ params:
     imageTitle: "<title of image as alt>"
     imageWidth: 120
     imageHeight: 120
-    buttons:
-      - name: Categories
-        url: "/posts"
-      - name: Search
-        url: "/Search"
-
+   
+    
   socialIcons:
     - name: "instagram"
       url: "https://www.instagram.com/siauyuih"
@@ -35,21 +50,42 @@ params:
       url: "https://www.youtube.com/@sterbemorgen"
     - name: "email"
       url: "Mailto: sterbemorgen@proton.me"
+
   assets:
     favicon: "otter.png"
     favicon16x16: "otter.png"
     favicon32x32: "otter.png"
     apple_touch_icon: "otter.png"
     safari_pinned_tab: "otter.png"
-
+    disableFingerprinting: true
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: "/about"
     - identifier: archives
       name: Archives
-      url: /archives
+      url: "/archives"
+    - identifier: search
+      name: Search
+      url: "/search"
+  left-sidebar:
+    - identifier: perusal
+      name: Perusal
+      url: "/perusal"
+    - identifier: appreciation
+      name: Appreciation
+      url: "/appreciation"
+    - identifier: introspective
+      name: Introspective
+      url: "/introspective"
+    - identifier: existence
+      name: Existence
+      url: "/existence"
 
 defaultTheme: auto
+preferred_color_scheme: auto
 disableThemeToggle: false
 DateFormat: "2006-01-02"
 ShowShareButtons: true
@@ -65,14 +101,6 @@ VisitCount: true
 ShowLastMod: true
 ShowToc: true
 TocOpen: true
-
-comments:
-  provider: "giscus"
-  giscus:
-    repo: "sterbemorgen/sterbemorgen.github.io"  # 你的 GitHub 仓库
-    issue-term: "pathname"                       # 基于路径创建评论
-    theme: "preferred-color-scheme"              # 根据用户的颜色模式自动选择主题
-    crossorigin: "anonymous"                     # 跨域资源共享
 
 outputs:
   home:

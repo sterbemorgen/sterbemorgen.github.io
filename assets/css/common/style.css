@@ -1,0 +1,44 @@
+/* 确保主内容区域 */
+.container {
+  margin-left: 25%;
+  margin-top: 7%; /* 确保主内容从侧边栏右侧开始 */
+  width: 50%; /* 主内容占据剩余 75% 宽度 */
+  min-height: 70vh;
+  white-space: normal;
+}
+
+/* 侧边栏样式 */
+.side-container {
+  position: fixed;
+  top: 100px;
+  left: 6%; /* 确保侧边栏固定在页面左边 */
+  height: 50vh; /* 侧边栏高度充满屏幕 */
+  width: 25%; /* 侧边栏宽度为屏幕的 25% */
+  display: flex;
+  flex-direction: column; /* 设置为竖着排列 */
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: transparent; /* 背景色 */
+  z-index: 9999; /* 确保侧边栏位于页面最上层 */
+}
+
+.nav-link-list {
+  display: flex;
+  flex-direction: column; /* 设置菜单项竖直排列 */
+  flex-grow: 1; /* 菜单项占满侧边栏的剩余空间 */
+}
+
+.nav-link-item {
+  margin-bottom: 10px;
+  padding: 8px 28px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+
+/* 小屏幕下隐藏侧边栏 */
+@media screen and (max-width: 768px) {
+  .side-container {
+    display: none; /* 在小屏幕下隐藏侧边栏 */
+  }
+}
