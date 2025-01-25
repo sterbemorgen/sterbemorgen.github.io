@@ -35,7 +35,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "sterbe morgen"
+    title: "Khonzy"
     subtitle: "Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren."
     imageUrl: "images/otter.gif"
     imageTitle: "<title of image as alt>"
