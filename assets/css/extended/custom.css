@@ -16,3 +16,17 @@ body {
 h1, h2, h3 {
     font-family: "Bubblegum Sans", serif;
 }
+// 为代码块顶部添加macos样式
+.article-content {
+    .highlight:before {
+      content: "";
+      display: block;
+      background: url(/imges/code-header.svg);
+      height: 25px;
+      width: 100%;
+      background-size: 52px;
+      background-repeat: no-repeat;
+      margin-top: -10px;
+      margin-bottom: 0;
+    }
+  }

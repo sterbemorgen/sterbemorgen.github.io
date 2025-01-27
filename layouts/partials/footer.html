@@ -1,35 +1,39 @@
-{{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-        {{- end }}
-        {{- print " · "}}
+    <!-- Add total page and word count time -->
+    <section class="totalcount">
+        {{$scratch := newScratch}}
+        {{ range (where .Site.Pages "Kind" "page" )}}
+            {{$scratch.Add "total" .WordCount}}
+        {{ end }}
+        Published {{ len (where .Site.RegularPages "Section" "posts") }} posts ·
+        Totaling {{ div ($scratch.Get "total") 1000.0 | lang.FormatNumber 2 }}k words.
+    </section>
+
+
+    <section class="running-time">
+        sterbe morgen has been running for&nbsp;
+        <span id="running-time" class="running-time"></span>
+    </section>
+
+    <script defer src="https://cn.vercount.one/js"></script>
+    Total Page View: <span id="vercount_value_page_pv">Loading</span> ·
+    Total Visits: <span id="vercount_value_site_pv">Loading</span> ·
+    Site Total Visitors: <span id="vercount_value_site_uv">Loading</span>
+
+    {{- if not .Site.Params.footer.hideCopyright }}
+        <div class="copyright">
+            &copy; 2023{{ if ne 2023 now.Year }} - {{ now.Year }}{{ end }}
+            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>.
+            All rights reserved. Reproduction or distribution without permission is prohibited.
+        </div>
     {{- end }}
 
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
-
-    <span>
+    <div class="footer-powered">
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    </div>
 </footer>
-{{- end }}
-
-{{- if (not site.Params.disableScrollToTop) }}
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-{{- end }}
-
 {{- partial "extend_footer.html" . }}
 
 <script>
@@ -61,22 +65,35 @@
     });
 
 </script>
-
 {{- if (not site.Params.disableScrollToTop) }}
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+{{- end }}
 
+{{- if (not .Site.Params.disableScrollToTop) }}
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
+</a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
 </script>
 {{- end }}
+
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>

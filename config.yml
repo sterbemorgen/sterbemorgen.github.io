@@ -4,8 +4,7 @@ title: "sterbe morgen"
 theme: "PaperMod"
 
 params:
-  backTopIcon: "/icons/neuroplasticity.png"
-  ShowReadingTime: true
+  ShowWordCount: true
   hasCJKLanguage: true
   enableInlineShortcodes: true
   enableEmoji: true
@@ -13,11 +12,24 @@ params:
   buildDrafts: false
   buildFuture: false
   buildExpired: false
-  enableEmoji: true
   pygmentsUseClasses: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   comments: true
+  defaultTheme: auto
+  preferred_color_scheme: auto
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  hideFooter: false
+  ShowWordCounts: true
+  VisitCount: true
+  ShowLastMod: true
+  ShowToc: true
+  TocOpen: true
+
   giscus:
     repo: "sterbemorgen/sterbemorgen.github.io"
     repo_id: "R_kgDONvALpQ"
@@ -41,8 +53,7 @@ params:
     imageTitle: "<title of image as alt>"
     imageWidth: 120
     imageHeight: 120
-   
-    
+
   socialIcons:
     - name: "instagram"
       url: "https://www.instagram.com/siauyuih"
@@ -84,23 +95,7 @@ menu:
       name: Existence
       url: "/existence"
 
-defaultTheme: auto
-preferred_color_scheme: auto
-disableThemeToggle: false
-DateFormat: "2006-01-02"
-ShowShareButtons: true
-ShowReadingTime: true
-displayFullLangName: true
-ShowPostNavLinks: true
-ShowBreadCrumbs: true
-ShowCodeCopyButtons: true
-hideFooter: false
-ShowWordCounts: true
-VisitCount: true
 
-ShowLastMod: true
-ShowToc: true
-TocOpen: true
 
 outputs:
   home:
@@ -122,3 +117,8 @@ markup:
     guessSyntax: true
     lineNos: true
     style: darcula
+
+privacy:
+  youTube:
+    disable: false
+    privacyEnhanced: false

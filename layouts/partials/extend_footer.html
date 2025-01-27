@@ -1,3 +1,33 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+<section class="running-time">
+     <span id="running-time"></span>
+</section>
+
+<script>
+    function timeSince(date) {
+        const now = new Date();
+        const diff = now - new Date(date);
+
+        const seconds = Math.floor(diff / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+
+        const sec = seconds % 60;
+        const min = minutes % 60;
+        const hr = hours % 24;
+
+        return `${days} days ${hr} hrs ${min} min ${sec} sec`;
+    }
+
+    const blogLaunchDate = '2023-04-28T00:00:00+09:00'; // Japan's timezone UTC+9
+
+    function updateRunningTime() {
+        document.getElementById('running-time').textContent = timeSince(blogLaunchDate);
+    }
+
+    // Update every second
+    setInterval(updateRunningTime, 1000);
+</script>
 {{- /* Footer custom content area end */ -}}
