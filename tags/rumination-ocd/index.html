@@ -151,7 +151,7 @@
 
         
         <main class="container"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://sterbemorgen.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://sterbemorgen.github.io/tags/">Tags</a></div>
   <h1>
     Rumination OCD
   </h1>
@@ -168,28 +168,89 @@
 甚至比如現在，我的左腦就麻麻地痛。頭痛的時候，如果遇上記憶閃回，絕對是痛上加痛。最近知道這個不一定是PTSD，還有可能是rumination OCD
 Rumination occurs when you repeatedly think about something without being able to stop or move on. You may hyperfocus on something that has already happened, worry over things that haven’t happened yet, and repeat thoughts out loud. The thinking often focuses on negative feelings or thoughts, such as fear of failure or self-hatred, and may cause distress. Rumination is a common problem that often goes undiagnosed. ...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-04-29 00:00:00 +0000 UTC'>April 29, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to 頭痛" href="https://sterbemorgen.github.io/introspective/%E9%A0%AD%E7%97%9B/"></a>
+  <footer class="entry-footer"><span title='2023-04-29 00:00:00 +0000 UTC'>2023-04-29</span>&nbsp;·&nbsp;172 words</footer>
+  <a class="entry-link" aria-label="post link to 頭痛" href="https://sterbemorgen.github.io/posts/introspective/%E9%A0%AD%E7%97%9B/"></a>
 </article>
         </main>
     </div>
 
     
+    <footer class="footer">
     
-<footer class="footer">
-        <span>&copy; 2025 <a href="https://sterbemorgen.github.io/">sterbe morgen</a></span> · 
+    <section class="totalcount">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        Published 5 posts ·
+        Totaling 0.53k words.
+    </section>
 
-    <span>
+
+    <section class="running-time">
+        sterbe morgen has been running for&nbsp;
+        <span id="running-time" class="running-time"></span>
+    </section>
+
+    <script defer src="https://cn.vercount.one/js"></script>
+    Total Page View: <span id="vercount_value_page_pv">Loading</span> ·
+    Total Visits: <span id="vercount_value_site_pv">Loading</span> ·
+    Site Total Visitors: <span id="vercount_value_site_uv">Loading</span>
+        <div class="copyright">
+            &copy; 2023 - 2025
+            <a href="https://sterbemorgen.github.io/">sterbe morgen</a>.
+            All rights reserved. Reproduction or distribution without permission is prohibited.
+        </div>
+
+    <div class="footer-powered">
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+    </div>
+</footer><section class="running-time">
+     <span id="running-time"></span>
+</section>
+
+<script>
+    function timeSince(date) {
+        const now = new Date();
+        const diff = now - new Date(date);
+
+        const seconds = Math.floor(diff / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+
+        const sec = seconds % 60;
+        const min = minutes % 60;
+        const hr = hours % 24;
+
+        return `${days} days ${hr} hrs ${min} min ${sec} sec`;
+    }
+
+    const blogLaunchDate = '2023-04-28T00:00:00+09:00'; 
+
+    function updateRunningTime() {
+        document.getElementById('running-time').textContent = timeSince(blogLaunchDate);
+    }
+
+    
+    setInterval(updateRunningTime, 1000);
+</script>
 
 <script>
     let menu = document.getElementById('menu')
@@ -220,18 +281,28 @@ Rumination occurs when you repeatedly think about something without being able t
     });
 
 </script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
+</a>
 
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
