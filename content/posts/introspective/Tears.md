@@ -2,15 +2,9 @@
 title: "Tears"
 date: 2023-04-30
 description: 
-tags:
-  - dementor
-categories:
-  - introspective
-draft: false
-comments: true  
-cover: 
-ShowToc: true  
-tocDepth: 2  
+series: ["introspective"]
+aliases: ["/introspective"]
+tags: ["dementor"]
 ---
 
 
