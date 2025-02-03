@@ -122,4 +122,4 @@ markup:
 privacy:
   youTube:
     disable: false
-    privacyEnhanced: false
+    privacyEnhanced: true
