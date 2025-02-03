@@ -181,7 +181,44 @@
 當我把氣泡戳破，外面的一切是這樣讓我難以忍受。但還是想要作為一個具體的人，努力一下。
 </p>
   </div>
-  <footer class="entry-footer"><span title='2023-05-15 00:00:00 +0000 UTC'>2023-05-15</span>&nbsp;·&nbsp;19 words</footer>
+  <footer class="entry-footer"><style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2023-05-15 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_2">
+        <span class="fa fa-calendar-plus-o"></span>
+        <span>Updated on &nbsp;2023-05-15 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>5010 Characters</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>11 min read</span>
+    </span>
+</span>
+
+
+</footer>
   <a class="entry-link" aria-label="post link to ☔️" href="https://sterbemorgen.github.io/posts/introspective/%EF%B8%8F/"></a>
 </article>
         </main>
@@ -215,10 +252,11 @@
         
             
         
-        Published 8 posts ·
-        Totaling 0.59k words.
+            
+        
+        Published 9 posts ·
+        Totaling 0.60k words.
     </section>
-
 
     <section class="running-time">
         sterbe morgen has been running for&nbsp;
@@ -301,10 +339,23 @@
 
 </script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
 </a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <span class="topInner">
         <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">

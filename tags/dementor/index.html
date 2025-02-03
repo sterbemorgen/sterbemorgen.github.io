@@ -166,7 +166,44 @@
     <p>Tears, much to my chagrin, pay no heed to my commands, even as I cry out, ‘Cease your flow, I am utterly fatigued.’ Alas, they persist of their own accord, mocking my weary pleas.
 </p>
   </div>
-  <footer class="entry-footer"><span title='2023-05-17 00:00:00 +0000 UTC'>2023-05-17</span>&nbsp;·&nbsp;34 words</footer>
+  <footer class="entry-footer"><style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2023-05-17 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_2">
+        <span class="fa fa-calendar-plus-o"></span>
+        <span>Updated on &nbsp;2023-05-17 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>192 Characters</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>1 min read</span>
+    </span>
+</span>
+
+
+</footer>
   <a class="entry-link" aria-label="post link to 💧" href="https://sterbemorgen.github.io/posts/introspective/"></a>
 </article>
 
@@ -181,7 +218,44 @@ As of late, my emotional state has been increasingly unstable. Today, I found my
 I recall reading that during bouts of depression, one ought to strive to recall moments of joy. But in my case, such instances are difficult to pinpoint.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-04-30 00:00:00 +0000 UTC'>2023-04-30</span>&nbsp;·&nbsp;178 words</footer>
+  <footer class="entry-footer"><style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2023-04-30 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_2">
+        <span class="fa fa-calendar-plus-o"></span>
+        <span>Updated on &nbsp;2023-04-30 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>1072 Characters</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>3 min read</span>
+    </span>
+</span>
+
+
+</footer>
   <a class="entry-link" aria-label="post link to Tears" href="https://sterbemorgen.github.io/posts/introspective/tears/"></a>
 </article>
         </main>
@@ -215,10 +289,11 @@ I recall reading that during bouts of depression, one ought to strive to recall 
         
             
         
-        Published 8 posts ·
-        Totaling 0.59k words.
+            
+        
+        Published 9 posts ·
+        Totaling 0.60k words.
     </section>
-
 
     <section class="running-time">
         sterbe morgen has been running for&nbsp;
@@ -301,10 +376,23 @@ I recall reading that during bouts of depression, one ought to strive to recall 
 
 </script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
 </a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <span class="topInner">
         <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">

@@ -168,7 +168,44 @@
 甚至比如現在，我的左腦就麻麻地痛。頭痛的時候，如果遇上記憶閃回，絕對是痛上加痛。最近知道這個不一定是PTSD，還有可能是rumination OCD
 Rumination occurs when you repeatedly think about something without being able to stop or move on. You may hyperfocus on something that has already happened, worry over things that haven’t happened yet, and repeat thoughts out loud. The thinking often focuses on negative feelings or thoughts, such as fear of failure or self-hatred, and may cause distress. Rumination is a common problem that often goes undiagnosed. ...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-04-29 00:00:00 +0000 UTC'>2023-04-29</span>&nbsp;·&nbsp;172 words</footer>
+  <footer class="entry-footer"><style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2023-04-29 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_2">
+        <span class="fa fa-calendar-plus-o"></span>
+        <span>Updated on &nbsp;2023-04-29 00:00:00</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>4100 Characters</span>
+        &nbsp;|&nbsp;
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>9 min read</span>
+    </span>
+</span>
+
+
+</footer>
   <a class="entry-link" aria-label="post link to 頭痛" href="https://sterbemorgen.github.io/posts/introspective/%E9%A0%AD%E7%97%9B/"></a>
 </article>
         </main>
@@ -202,10 +239,11 @@ Rumination occurs when you repeatedly think about something without being able t
         
             
         
-        Published 8 posts ·
-        Totaling 0.59k words.
+            
+        
+        Published 9 posts ·
+        Totaling 0.60k words.
     </section>
-
 
     <section class="running-time">
         sterbe morgen has been running for&nbsp;
@@ -288,10 +326,23 @@ Rumination occurs when you repeatedly think about something without being able t
 
 </script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
 </a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <span class="topInner">
         <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
