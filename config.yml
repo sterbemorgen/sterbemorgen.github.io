@@ -5,6 +5,7 @@ theme: "PaperMod"
 
 params:
   ShowWordCount: true
+  ShowReadingTime: true
   hasCJKLanguage: true
   enableInlineShortcodes: true
   enableEmoji: true
@@ -20,11 +21,11 @@ params:
   preferred_color_scheme: auto
   disableThemeToggle: false
   DateFormat: "2006-01-02"
+  lastmod: 2025-02-03T18:12:05+09:00
   ShowShareButtons: true
   displayFullLangName: true
   ShowBreadCrumbs: true
   hideFooter: false
-  ShowWordCounts: true
   VisitCount: true
   ShowLastMod: true
   ShowToc: true
