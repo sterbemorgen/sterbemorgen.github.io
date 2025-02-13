@@ -7,6 +7,7 @@ series: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["movies"]
 ---
+{{< neodbcard "https://neodb.social/tv/season/7hqvNcHyeeHVZxpw0UFBTx" >}} 
 
 既然說到這部劇了，就推薦一下。非常好看。
 
