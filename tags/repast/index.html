@@ -78,16 +78,6 @@
 <body class="list" id="top">
     <div id="app">
         
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
 
 <header class="header">
     <nav class="nav">
@@ -123,13 +113,13 @@
                 </a>
             </li>
             <li>
-                <a href="https://sterbemorgen.github.io/archives" title="Archives">
-                    <span>Archives</span>
+                <a href="https://sterbemorgen.github.io/neodb" title="NeoDB">
+                    <span>NeoDB</span>
                 </a>
             </li>
             <li>
-                <a href="https://sterbemorgen.github.io/neodb" title="NeoDB">
-                    <span>NeoDB</span>
+                <a href="https://sterbemorgen.github.io/archives" title="Archives">
+                    <span>Archives</span>
                 </a>
             </li>
             <li>
@@ -736,7 +726,12 @@ Bought stuff on sale.
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </div>
-</footer><section class="running-time">
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><section class="running-time">
      <span id="running-time"></span>
 </section>
 
@@ -796,41 +791,28 @@ Bought stuff on sale.
     });
 
 </script>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <span class="topInner">
-        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z"/>
-        </svg>
-        <span id="read_progress"></span>
-    </span>
-</a>
-
 <script>
-    document.addEventListener('scroll', function (e) {
-        const readProgress = document.getElementById("read_progress");
-        const scrollHeight = document.documentElement.scrollHeight;
-        const clientHeight = document.documentElement.clientHeight;
-        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
-    })
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
 </script>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <span class="topInner">
-        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z"/>
-        </svg>
-        <span id="read_progress"></span>
-    </span>
-</a>
-
 <script>
-    document.addEventListener('scroll', function (e) {
-        const readProgress = document.getElementById("read_progress");
-        const scrollHeight = document.documentElement.scrollHeight;
-        const clientHeight = document.documentElement.clientHeight;
-        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
-    })
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
