@@ -1,5 +1,5 @@
 ---
-title: "Neodb"
+title: "NeoDB"
 type: "page"
 ShowToc: false
 hide_metadata: true

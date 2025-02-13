@@ -76,15 +76,19 @@ menu:
     - identifier: about
       name: About
       url: "/about"
-    - identifier: neodb
+      weight: 10
+    - identifier: NeoDB
       name: NeoDB
       url: "/NeoDB"
+      weight: 20
     - identifier: archives
       name: Archives
       url: "/archives"
+      weight: 30
     - identifier: search
       name: Search
       url: "/search"
+      weight: 40
   left-sidebar:
     - identifier: perusal
       name: Perusal
@@ -126,3 +130,6 @@ privacy:
   youTube:
     disable: false
     privacyEnhanced: true
+  instagram:
+    disabled: false
+    simple: true
