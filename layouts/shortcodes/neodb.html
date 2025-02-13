@@ -1,0 +1,92 @@
+<!--Available categories: book, movie, tv, podcast, music, game, performance-->
+{{ $category := .Get 0 }}
+<!--Available types: wishlist, progress, complete-->
+{{ $type := .Get 1 }}
+
+{{ if eq $type "" }}
+{{ $type = "complete" }}
+{{ end }}
+
+<!-- 正确构建 URL -->
+{{ $url := printf "https://neodb-worker.littlelittlecy.workers.dev/%s?type=%s" $category $type }}
+
+<!-- 使用 GetRemote 获取远程 JSON 数据并进行解码 -->
+{{ $jsonResource := resources.GetRemote $url }}
+{{ $json := $jsonResource | transform.Unmarshal }}
+
+<div class="item-gallery">
+    {{ range first 10 $json.data }} <!-- 仅获取前10个数据 -->
+    {{ $item := .item }}
+    <div class="item-card">
+        <a class="item-card-upper" href="{{ $item.id }}" target="_blank" rel="noreferrer">
+            <img class="item-cover" src="{{ $item.cover_image_url }}" alt="{{ $item.display_title }}">
+        </a>
+        {{ if $item.rating }}
+        <div class="rate">
+            <span><b>{{ $item.rating }}</b>🌟</span>
+            <br>
+            <span class="rating-count"> {{ $item.rating_count }} ratings</span>
+        </div>
+        {{ else }}
+        <div class="rate">
+            <span>No ratings yet🌟</span>
+            <br>
+            <span class="rating-count"> {{ $item.rating_count }} ratings</span>
+        </div>
+        {{ end }}
+        <h3 class="item-title">{{ $item.display_title }}</h3>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem; /* 更小的字体 */
+        margin-bottom: 0px; /* 缩小评分和横线之间的空隙 */
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important; /* 强制字体变小 */
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important; /* 强制字体变小 */
+        text-align: center;
+        margin: 0px 0 0 0; /* 减少标题与评分之间的空隙 */
+    }
+
+</style>
+
+
+
+
