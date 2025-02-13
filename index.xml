@@ -358,5 +358,1535 @@ The thinking often focuses on negative feelings or thoughts, such as fear of fai
 &lt;p&gt;The mere sight of the trailer immediately kindled a fervent anticipation for this film! It&amp;rsquo;s released at the same time as the Barbie the movie in Japan. Had the notion of watching it yesterday alongside, but fatigue got the best of me.&lt;/p&gt;
 &lt;p&gt;Today, with pink popcorn in hand, I finally settled in to watch and was not disappointed. Gotta say, I&amp;rsquo;m digging it! It lived up to my expectations and the waiting endured, akin to a whimsical fairy tale, truly unadulterated romance. Those female characters are endowed with abundance, amiability, and charisma.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Neodb</title>
+      <link>https://sterbemorgen.github.io/neodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sterbemorgen.github.io/neodb/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://neodb.social/users/siauyuih/&#34;&gt;https://neodb.social/users/siauyuih/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;books-to-read&#34;&gt;Books to Read&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/5CvoW6H87nZJYqmOWhenFk&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/12/091cfe525b-6729-4003-bd0c-122d3a6e6674.jpg&#34; alt=&#34;梦境救援&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.3&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 12 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;梦境救援&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/0wtPyvj1HPmB7APg7u3Oel&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/12/045228d6f0-6868-4ffb-b3bd-d995f72766ae.jpg&#34; alt=&#34;From Alpha to Omega&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 0 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;From Alpha to Omega&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/3lkeEMypb8x8PneqNUYxVe&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/10/19a534a49d-9343-44a6-be8c-05c5cd1e894c.jpg&#34; alt=&#34;拉丁语语法新编&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;拉丁语语法新编&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/1RshKGSLqV5zWgFlnRzwwr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/11/28e31727cd-6ade-4db2-9e67-f91113293b37.jpg&#34; alt=&#34;Ludwig Wittgenstein&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 3 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Ludwig Wittgenstein&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;books-read&#34;&gt;Books Read&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/3z6jwtsbJnnpocEgBB90Wc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/goodreads/2024/09/14/7e08f2ab-e67a-4e87-ae1e-0ef6b7cb7608.jpg&#34; alt=&#34;Wordslut: A Feminist Guide to Taking Back the English Language&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Wordslut: A Feminist Guide to Taking Back the English Language&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/6LguHXPuQzM0qJcJvXssE3&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanbook/2023/04/15/db19e511-f6c1-4b0e-a45b-ca255347c251.jpg&#34; alt=&#34;旧雨重落&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 2 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;旧雨重落&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/3alvPu7YMROpSCksl7QOP3&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/09/150f6328e7-6d47-438a-a6bd-596eccfa5f14.jpg&#34; alt=&#34;少年來了&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;9.1&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 139 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;少年來了&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/4PGFR7dA0fNj91YmiZESQh&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanbook/2023/02/12/f59c53f7-08f5-4da7-91f8-b7b71a5c3ae1.jpg&#34; alt=&#34;植物妻子&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 17 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;植物妻子&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/4hBBalgRszQ3gFfM4YZZY1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/goodreads/2024/10/12/6f5347cc-d02b-4d25-85ba-18b5da5e5e0a.jpg&#34; alt=&#34;素食者&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.6&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 11 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;素食者&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/2HTfy0wsXO4AlisPsGGEFe&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2022/06/26b4d9ca21-3a8c-42c2-9cef-ac184a92249e.jpg&#34; alt=&#34;The Seventh Hypothesis&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;The Seventh Hypothesis&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/3ofVmDLpr3FxiAPH9KInSc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/09/24a622da1e-f78d-4820-a577-54ccafec697a.jpg&#34; alt=&#34;潮骚&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 22 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;潮骚&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/3lxOoteSHUuUHVAbnuszcc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/10/227a3eed20-6f2b-49ba-bf4b-f4123b5121c5.jpg&#34; alt=&#34;雨中杀手&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 5 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;雨中杀手&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/2D48DZV8yo1sTldzQgviuW&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/09/2400e3a88a-801a-49ea-a5dd-4c49631fb676.jpg&#34; alt=&#34;全神贯注的方法&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 5 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;全神贯注的方法&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/book/5QdHmbA9HfQTQXWGaR6f4V&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/book/2021/09/18dee11e40-13d8-4edb-8b64-d304980afe44.jpg&#34; alt=&#34;谁都可以画漫画！手冢治虫大师班&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.6&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 5 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;谁都可以画漫画！手冢治虫大师班&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;shows-to-watch&#34;&gt;Shows to Watch&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/0wv3va1urLlQMAWdHtB32x&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/15780ba066-5524-468c-a1b9-03b712f6d17a.jpg&#34; alt=&#34;我的青春恋爱物语果然有问题 第三季 完&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 71 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;我的青春恋爱物语果然有问题 第三季 完&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/36XO4JeHkeICYY3EarWoWO&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/1640fb624a-3618-4a5a-b54f-0aa781352a6e.jpg&#34; alt=&#34;金雀花王朝&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 27 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;金雀花王朝&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/7Lv4zCbeog38rbxldDZRbF&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/11/27a690158b-ca2b-4500-85b0-b447a8f16866.jpg&#34; alt=&#34;BBC 中世纪儿童&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;BBC 中世纪儿童&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/5LzFQ5zlvWmefclpnrGPNB&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/12/08284b1968-6b18-4c4d-8208-761d038d8cbe.jpg&#34; alt=&#34;中世纪思潮&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 4 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;中世纪思潮&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/59vojhlsHcuPwCDnzu1zUI&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/203b172392-b147-4626-b845-a5c1ab0c101b.jpg&#34; alt=&#34;中世纪生活&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 25 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;中世纪生活&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/34LpHGfr9Pfut64XMTlP4P&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_tvseason/2023/05/28/6b682c2d-5ad6-4e51-a0aa-17086553d87d.jpg&#34; alt=&#34;火星生活 第 1 季&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 22 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;火星生活 第 1 季&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/58KmWXlWXjkZrq58icBAd7&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/15ea45222b-c1e5-4979-a674-112a6ad79285.jpg&#34; alt=&#34;火星生活&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 121 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;火星生活&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/6v5D8YLhO7DHTuNgzhS63Z&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/12/06c33fe27b-a75b-4c2d-9c6a-5cba149e8add.jpg&#34; alt=&#34;情迷画色&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 18 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;情迷画色&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/4xpjfzt9Cr9XVPNVczTbOP&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/220cd28281-c346-48df-9a75-70ece1ad00c9.jpg&#34; alt=&#34;我只喜欢你&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 47 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;我只喜欢你&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/2ZEJgDjFmSXrkhCc3b0JUc&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/16cd556ec0-7dd0-4f53-ad55-95d92da4fe0d.jpg&#34; alt=&#34;Foundation&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 172 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Foundation&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;shows-watched&#34;&gt;Shows Watched&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/4SaVkFuL4jZp8XsWpJdknV&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2024/09/22/248b05d6-0dc2-4634-88e1-6636d772f4af.jpg&#34; alt=&#34;高度潜力&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 5 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;高度潜力&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/7A5VzeP2CjD0QndqIS3joQ&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_tvseason/2025/01/19/3e8dc9da-cab1-493c-afc5-4e01f6edb1ce.jpg&#34; alt=&#34;异人之下之决战！碧游村 第二季&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 15 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;异人之下之决战！碧游村 第二季&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/2XmiiNvEZ7Yr6sdnM4Gjcv&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2023/02/08/e6bf8b16-74c4-4d2f-8b5b-52b2af6489d4.jpg&#34; alt=&#34;漫影寻踪&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;漫影寻踪&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/09bfXbpY5PjhF8hPhX8ui1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_tv/2025/01/26/15c80712-7bc4-461f-ad3d-ae9ae5059415.jpg&#34; alt=&#34;了不起的曹萱萱&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;了不起的曹萱萱&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/2b5NMMQuTm76Cd02wuqgK0&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_tv/2025/01/25/3efff9a2-d51c-4461-b228-a7475992791b.jpg&#34; alt=&#34;锁红颜&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;锁红颜&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/3LK56d8QGVmarqmTGUrYLM&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2025/01/10/e17c11c6-7e19-41e7-b9f3-dfbe3fdfc153.jpg&#34; alt=&#34;雨女 翻拍版&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 4 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;雨女 翻拍版&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/3XvaCxestUH5y4UgFYj9LQ&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_tv/2025/01/16/de93e185-6ea9-4e2a-a75b-494da5b343e1.jpg&#34; alt=&#34;朝云散&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 3 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;朝云散&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/1suDyAgX2FMfiujZCqqDfo&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tv/2024/11/26/8422c47e-2f13-4c76-83bd-18b65afad95e.jpg&#34; alt=&#34;正念谋杀&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 47 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;正念谋杀&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/2f1yewls3Z4SHxeY2lj3Mh&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2024/09/29/624a4137-f111-498d-9a1f-72035029c2e5.jpg&#34; alt=&#34;来自地狱的法官&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.3&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 7 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;来自地狱的法官&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/tv/season/1Sauy8GmSJYCCURDlLrTR6&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2025/01/04/f1627418-754c-4e02-ac5d-24047013660a.jpg&#34; alt=&#34;清明上河图密码&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 16 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;清明上河图密码&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;movies-to-watch&#34;&gt;Movies to Watch&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/6gVWr33t6ngVjTkTexSocK&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/1661cf174b-7ad8-4104-9aad-6c666922b191.jpg&#34; alt=&#34;她在愤怒时最美&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;9.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 72 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;她在愤怒时最美&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/2uqZegjAoMmQ3OiiD6kpIm&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/12/107b1299c9-936b-493d-b449-6b916f545c08.webp&#34; alt=&#34;加西亚·洛尔伽的失踪&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;加西亚·洛尔伽的失踪&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/0rBt0V0t2Odf2G88PHBcmQ&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/12/10de16b166-0596-42e2-b4df-dab19f31d6b1.webp&#34; alt=&#34;幸好有牛奶&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 0 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;幸好有牛奶&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/3pRY9ZJHNllxuUf4l9yGa1&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/1564d0b7f1-8f49-45e0-9437-f19600c46552.jpg&#34; alt=&#34;海市蜃楼&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 627 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;海市蜃楼&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/6Sw8R6FKUNL68Yo3So5Mve&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/movie/2023/04/30/01777af6-58a2-481f-a6cb-be59028577a8.webp&#34; alt=&#34;法兰西特派&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 794 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;法兰西特派&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/1AlDyCS4cVqIQIOoxABLBD&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/12/100ac12e4a-657a-4683-bacd-6a33dce7414a.webp&#34; alt=&#34;绒布小兔子&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 4 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;绒布小兔子&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/1Revce8Jx4Op8wTDJdmrsR&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/159602ca04-ec76-4132-9d00-06ca1ac30030.jpg&#34; alt=&#34;开罗紫玫瑰&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 380 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;开罗紫玫瑰&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/3cZWIwhSShjP42tlCeyLFy&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/10/07dc882390-f946-4e6d-8c7d-4ffee2cc40e4.jpg&#34; alt=&#34;约翰·多诺万的死与生&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 33 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;约翰·多诺万的死与生&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/0wkCABj7Cf02o73iwDTLnk&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/movie/2023/04/21/038c3cf8-b181-4a0e-9682-b7a0cf410a55.jpeg&#34; alt=&#34;银河护卫队3&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 554 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;银河护卫队3&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/57P6262g7r4LFksvLRmw0N&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/16edfa8f1d-edbb-45f5-b44c-579d0cfe1539.jpg&#34; alt=&#34;尽情游戏&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 125 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;尽情游戏&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;movies-watched&#34;&gt;Movies Watched&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/2gzky4gck88Gs8O1ZSX2iK&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_movie/2024/03/08/faa68cbe-ed3c-4740-a855-b89430864d69.jpg&#34; alt=&#34;荒野机器人&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 140 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;荒野机器人&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/7Bw1xccHb5joAw1ftK6fVS&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_movie/2024/04/09/630d5dd2-8334-4a2c-b463-d694044fb880.jpg&#34; alt=&#34;名侦探柯南：百万美元的五棱星&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.5&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 95 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;名侦探柯南：百万美元的五棱星&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/2OHPwSmL3YCB0TtWkFKlQu&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2023/12/17/398486bd-7d18-4e54-9f64-7a6af3ae3c9a.webp&#34; alt=&#34;旺卡&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.7&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 170 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;旺卡&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/69FsMgCCgN0W4nErdC8Znd&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_movie/2024/06/17/6de56878-f8be-469c-868f-cc25d1102b7c.jpg&#34; alt=&#34;奥特曼：崛起&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 4 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;奥特曼：崛起&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/2bGH7p2YQEaVLracLGu56Z&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_movie/2024/01/12/5920d04d-ead2-40dd-b886-29ca817e50a4.jpg&#34; alt=&#34;贱女孩&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.4&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 11 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;贱女孩&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/1xlZmeQhGluLj6lPSHZ4uV&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/movie/2024/03/06/0e8b6cfd-369c-4c58-96bc-4effe961f4e2.jpg&#34; alt=&#34;关于你的想法&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;4.4&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 48 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;关于你的想法&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/2kozkTN06fKaVngXkv6bbU&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2024/05/05/f918f4c1-f3ca-41ca-a38f-f6b6c261ff12.webp&#34; alt=&#34;邪恶的小信件&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.6&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 45 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;邪恶的小信件&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/3a0UQKGuBSVBa2aF81L1RB&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmovie/2023/08/03/d1fd34bf-9b06-45c5-aff1-f6cdb922705d.jpg&#34; alt=&#34;飞鸭向前冲&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.4&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 25 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;飞鸭向前冲&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/723h1OrnhXcfWBYeNTvvoH&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/movie/2021/09/156d1b5ad9-1288-4b92-b96f-9c31039d295b.jpg&#34; alt=&#34;憨豆的黄金周&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.9&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 372 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;憨豆的黄金周&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/movie/7CrrELtohhPLwzkSU4ArUM&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/tmdb_movie/2023/12/20/4bba073a-86ec-4e98-9fa1-3ce7106b37fb.jpg&#34; alt=&#34;名侦探柯南：黑铁的鱼影&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;6.4&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 171 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;名侦探柯南：黑铁的鱼影&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;music-to-listen-to&#34;&gt;Music to Listen To&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;
+
+
+
+
+
+&lt;h2 id=&#34;music-listened-to&#34;&gt;Music Listened To&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;item-gallery&#34;&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/5Tgk9FxPvGVRFYqO6nSnHZ&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/06/10/8924c53a-1823-40f9-8b2c-cc9cc10de206.jpg&#34; alt=&#34;How Sweet &amp;amp; Bubble Gum&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.3&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 29 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;How Sweet &amp;amp; Bubble Gum&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/1iA4boaIkQnQcnNo8yM4cl&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/11/04/23c50248-f165-4eec-993b-540c0da3e59d.jpg&#34; alt=&#34;没语季节&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 2 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;没语季节&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/2if2uiT0Y6DpY23z0ANDrt&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/10/21/d13fe350-bfc5-47dd-ae08-13c1e717854b.jpg&#34; alt=&#34;APT.&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.4&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 18 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;APT.&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/6t7pWqtSpUTnKy1sYInNlr&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/10/16/eeb92e86-67d9-45b1-bf03-6ec3e1bd031b.jpg&#34; alt=&#34;Mantra&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;5.8&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 5 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Mantra&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/6isV4hwt2kzVbmWisUs91g&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/06/23/685710a4-6697-464f-8068-927e22261570.jpg&#34; alt=&#34;Supernatural&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.2&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 25 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Supernatural&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/31jrHKX0k6wGJiUtJ7WM22&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/spotify_album/2024/06/08/362d99ff-193f-4e29-b07e-1acc0e1512bc.jpg&#34; alt=&#34;BRAT&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.1&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 61 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;BRAT&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/35NRStpjg8s8UzGp96Napz&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/music/2024/06/02/b5e36ab3-c4ce-4045-b2c8-8083645bef12.jpg&#34; alt=&#34;My Blue has always been Shattered by the Night&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;My Blue has always been Shattered by the Night&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/09k2PEA3E7CcIHnWem8rM5&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/bandcamp/2024/06/02/023b6a02-80e0-4c38-a4a8-c1a3afb65a56.jpg&#34; alt=&#34;Hello, Wonderland&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;No ratings yet🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 1 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;Hello, Wonderland&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/7DGjHyILs3ZwVJ2iNBwOUM&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/doubanmusic/2024/05/17/3b25e164-3cda-47bc-8316-0b8b3d56f5ed.jpg&#34; alt=&#34;HIT ME HARD AND SOFT&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;8.3&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 67 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;HIT ME HARD AND SOFT&lt;/h3&gt;
+    &lt;/div&gt;
+     
+    
+    &lt;div class=&#34;item-card&#34;&gt;
+        &lt;a class=&#34;item-card-upper&#34; href=&#34;https://neodb.social/album/46SnJinrmJMw6tUWmWmmRH&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;
+            &lt;img class=&#34;item-cover&#34; src=&#34;https://neodb.social/m/item/spotify_album/2024/04/19/0437e5cb-bd89-47a4-918d-e26dcc5b8948.jpg&#34; alt=&#34;THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;rate&#34;&gt;
+            &lt;span&gt;&lt;b&gt;7.3&lt;/b&gt;🌟&lt;/span&gt;
+            &lt;br&gt;
+            &lt;span class=&#34;rating-count&#34;&gt; 10 ratings&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;h3 class=&#34;item-title&#34;&gt;THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY&lt;/h3&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;style&gt;
+    .item-gallery {
+        display: flex;
+        padding: 0 1rem;
+        overflow-x: scroll;
+        align-items: baseline;
+    }
+
+    .item-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 17%;
+        margin: 0 0.5rem 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+        width: 8rem;
+    }
+
+    .item-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .rate {
+        text-align: center;
+        font-size: 0.85rem;  
+        margin-bottom: 0px;  
+    }
+
+    .rating-count {
+        font-size: 0.75rem !important;  
+        color: grey;
+    }
+
+    .item-cover {
+        width: 100%;
+        min-height: 3rem;
+        border: 2px solid transparent;
+    }
+
+
+    .item-title {
+        font-size: 0.85rem !important;  
+        text-align: center;
+        margin: 0px 0 0 0;  
+    }
+
+&lt;/style&gt;</description>
+    </item>
   </channel>
 </rss>
