@@ -20,9 +20,16 @@
     </span>
     <span id="post_meta_style_2">
         <span class="fa fa-calendar-plus-o"></span>
-        <span>Updated on &nbsp;{{- (.Lastmod.Format "2006-01-02 15:04:05") }}</span>
+        {{- if .GitInfo }}
+            <span>Updated on &nbsp;{{- (.GitInfo.Lastmod.Format "2006-01-02 15:04:05") }}</span>
+        {{- else }}
+            <span>Updated on &nbsp;{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
+        {{- end }}
         &nbsp;|&nbsp;
     </span>
+
+
+
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
         <span>{{ len .Plain }} Characters</span>

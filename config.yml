@@ -22,9 +22,7 @@ params:
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   frontmatter:
-  lastmod:
-    - :git
-    - :fileModTime
+  lastmod: "lastmod"
   enableGitInfo: true
   ShowShareButtons: true
   displayFullLangName: true

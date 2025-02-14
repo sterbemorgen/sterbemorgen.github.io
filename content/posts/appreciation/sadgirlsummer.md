@@ -3,7 +3,6 @@
 title: "sad girl summer"
 summary: 
 date: 2025-02-14
-lastmod: 
 series: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["music"]
