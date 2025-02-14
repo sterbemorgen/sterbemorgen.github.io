@@ -239,6 +239,19 @@
 
     
     
+        var date = "2025-02-14";
+        var postObj = new Map();
+        postObj.set("title", "sad girl summer");
+        postObj.set("link", "/posts/appreciation/sadgirlsummer/");
+
+        var data = postsByDate.get(date);
+        if (!data) {
+            data = new Map();
+            data.set("posts", []);
+        }
+        var posts = data.get("posts");
+        posts.push(postObj);
+        postsByDate.set(date, data);
         var date = "2024-09-09";
         var postObj = new Map();
         postObj.set("title", "視線の先に潜む社会的排除の現実");
@@ -802,8 +815,12 @@
              
              
         
+             
+             
+             
+        
 
-        Published 26 posts ·
+        Published 27 posts ·
         Totaling 1.20k words.
     </section>
     <section class="running-time">
