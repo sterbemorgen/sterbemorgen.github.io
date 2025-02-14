@@ -8,8 +8,7 @@ aliases: ["/appreciation"]
 tags: ["movies"]
 ---
 
-
-[Red, White & Royal Blue](https://www.imdb.com/title/tt10172266/)
+{{< neodbcard "https://neodb.social/movie/4cV5E31SW1lwtiYBkQrtyo" >}}
 
 The mere sight of the trailer immediately kindled a fervent anticipation for this film! It's released at the same time as the Barbie the movie in Japan. Had the notion of watching it yesterday alongside, but fatigue got the best of me. 
 

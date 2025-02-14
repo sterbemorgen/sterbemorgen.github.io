@@ -9,30 +9,27 @@
     {{ $dbApiUrl = "https://neodb.social/api/catalog/fetch?url=" }}
 {{ end }}
 
-{{ $url := printf "%s%s" $dbApiUrl $dbType }}
-{{ $data := dict }}
+{{ $fullUrl := printf "%s%s" $dbApiUrl $dbType }}
 
-{{ with resources.GetRemote $url }}
-    {{ with .Err }}
-        {{ errorf "%s" . }}
-    {{ else }}
-        {{ $data = . | transform.Unmarshal }}
-        {{ if $data }}
-            {{ $itemRating := 0 }}{{ with $data.rating }}{{ $itemRating = . }}{{ end }}
-            <div class="db-card">
-                <div class="db-card-subject">
-                    <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $data.cover_image_url }}"></div>
-                    <div class="db-card-content">
-                        <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $data.title }}</a></div>
-                        <div class="rating"><span class="allstardark"><span class="allstarlight" style="width: {{ mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
-                        <div class="db-card-abstract">{{ $data.brief }}</div>
-                    </div>
-                    <div class="db-card-cate">{{ $data.category }}</div>
-                </div>
-            </div>
-        {{ end }}
-    {{ end }}
+{{ $dbFetch := resources.GetRemote $fullUrl | transform.Unmarshal }}
+
+{{ if $dbFetch }}
+    {{ $itemRating := 0 }}{{ with $dbFetch.rating }}{{ $itemRating = . }}{{ end }}
+    <div class="db-card">
+        <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.cover_image_url }}"></div>
+        <div class="db-card-content">
+            <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.title }}</a></div>
+            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
+            <div class="db-card-abstract">{{ $dbFetch.brief }}</div>
+        </div>
+        <div class="db-card-cate">{{ $dbFetch.category }}</div>
+    </div>
+
+    <!-- Conditionally apply the .post-footer styling -->
+    <div class="post-footer" style="margin-top: 56px; width: 50%; margin-left: auto; margin-right: auto;">
+        <!-- Footer content goes here -->
+    </div>
+
 {{ else }}
     <p style="text-align: center;"><small>远程获取内容失败，请检查 API 有效性。</small></p>
-    {{ errorf "Unable to get remote resource %q" $url }}
 {{ end }}

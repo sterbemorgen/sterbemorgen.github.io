@@ -252,45 +252,73 @@
     font-weight: normal;
 }
 
+:root {
+    --nav-width: 1380px;
+    --article-width: 650px;
+    --toc-width: 300px;
+    --gap: 20px;  /* 添加 gap 变量 */
+}
+
+/* TOC 容器样式 */
+.toc-container.wide {
+    position: fixed;  /* 改为 fixed，确保 TOC 固定在右侧 */
+    top: calc(var(--gap) * 8);  /* 调整 TOC 与顶部的间距 */
+    right: var(--gap);  /* 给右侧留出 gap */
+    width: var(--toc-width);
+    height: 100%;
+    border-right: 1px solid var(--border);
+}
+
+/* 目录的内层样式 */
+.wide .toc {
+    position: unset;  /* 去除 sticky 样式 */
+    border: unset;
+    background: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 0;
+}
+
+/* 目录的具体样式 */
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
-    background: var(--code-bg);
+    background: var(--entry);
     border-radius: var(--radius);
     padding: 0.4em;
 }
 
-.dark .toc {
-    background: var(--entry);
-}
-
-.toc details summary {
-    cursor: zoom-in;
-    margin-inline-start: 10px;
-    user-select: none;
-}
-
-.toc details[open] summary {
-    cursor: zoom-out;
-}
-
-.toc .details {
-    display: inline;
-    font-weight: 500;
-}
-
+/* 目录内部滚动条 */
 .toc .inner {
-    margin: 5px 20px 0;
-    padding: 0 10px;
-    opacity: 0.9;
+    margin: 0 0 0 20px;
+    padding: 0px 15px 15px 20px;
+    font-size: 24px;
+    max-height: 83vh;
+    overflow-y: auto;
 }
 
-.toc li ul {
-    margin-inline-start: var(--gap);
+.toc .inner::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border: 7px solid var(--theme);
+    border-radius: var(--radius);
 }
 
-.toc summary:focus {
-    outline: 0;
+/* 目录列表样式 */
+.toc ul {
+    list-style-type: circle;
+}
+
+.toc li {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.toc li a:active,
+.toc li a:hover,
+.toc li a::selection {
+    background-color: #FFB6C1; /* 点击和选中时的背景色 */
+    border-bottom-color: var(--card-text-color-main);  /* 让底部线的颜色同步变化 */
 }
 
 .post-footer {

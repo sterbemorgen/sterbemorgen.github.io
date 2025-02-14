@@ -30,3 +30,48 @@ h1, h2, h3 {
       margin-bottom: 0;
     }
   }
+
+//文本高斯模糊
+.blur {
+    color: transparent;
+    text-shadow:0px 0px 8px var(--card-text-color-main)
+}
+ 
+.blur:hover {
+    color: transparent;
+    text-shadow:0px 0px 0px var(--card-text-color-main)
+   
+}
+//文本黑幕效果
+.shady {
+    color:#000;
+    font-weight: bold;
+    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset;
+    transition: all 0.3s ease;
+}
+.shady:hover{
+   font-weight: bold;
+    color:#FFF;
+    box-shadow: 0px -20px 0px rgba(0,0,0,1) inset;
+}
+//文字颜色渐变
+.colorfulfont {
+    background: linear-gradient(to right, rgb(25, 221, 238), #ed4588); //第一个颜色代码是渐变起始色，第二个颜色代码是渐变结束色；
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+//键盘标签样式
+kbd {
+  margin: 0 .1em;
+  padding: .1em .6em;
+  font-size: .8em;
+  color: #242729;
+  background: #fff;
+  border: 1px solid #adb3b9;
+  border-radius: 3px;
+  box-shadow: 0px 1px 0 rgba(12, 13, 14, 0.2), 0 0 0 2px #fff inset;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: SourceHanSerifSC;
+}

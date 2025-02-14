@@ -34,12 +34,11 @@
   transition: all 0.2s linear;
 }
 
-/* 鼠标悬停时变色并加下划线 */
-.side-container a:hover {
-  color: #FFDAB9; /* 例如橙色，可以换成你喜欢的颜色 */
-  text-decoration: underline; /* 添加下划线 */
+.side-container a:hover .link-text {
+    background-color: #FFDAB9; /* 点击和选中时的背景色 */
+    border-bottom-color: var(--card-text-color-main);  /* 让底部线的颜色同步变化 */
+    color: white; /* 选中时可以让文字变白，看起来更清晰（可选） */
 }
-
 
 /* 小屏幕下隐藏侧边栏 */
 @media screen and (max-width: 768px) {
