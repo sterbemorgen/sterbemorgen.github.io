@@ -21,7 +21,11 @@ params:
   preferred_color_scheme: auto
   disableThemeToggle: false
   DateFormat: "2006-01-02"
-  lastmod: 2025-02-03T18:12:05+09:00
+  frontmatter:
+  lastmod:
+    - :git
+    - :fileModTime
+  enableGitInfo: true
   ShowShareButtons: true
   displayFullLangName: true
   ShowBreadCrumbs: true
