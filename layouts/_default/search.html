@@ -19,8 +19,151 @@
     </div>
     {{- end }}
 </header>
+<div id="heatmap" style="display: block; height: 200px; width: 100%; padding: 2px; text-align: center;"></div>
 
-<div id="searchbox">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script>
+<script type="text/javascript">
+    var chartDom = document.getElementById('heatmap');
+    var myChart = echarts.init(chartDom);
+    window.onresize = function() {
+        myChart.resize();
+    };
+
+    // 获取日期范围
+    function getDateRange(months) {
+        var startDate = new Date();
+        startDate.setMonth(startDate.getMonth() - months);
+        var endDate = new Date();
+        
+        const startDateStr = startDate.toISOString().split('T')[0];
+        const endDateStr = endDate.toISOString().split('T')[0];
+        
+        return [startDateStr, endDateStr];
+    }
+
+    // 获取显示的月份数量，根据窗口大小动态调整
+    function getMonthCount() {
+        const windowWidth = window.innerWidth;
+        if (windowWidth >= 600) {
+            return 12;
+        }
+        if (windowWidth >= 400) {
+            return 9;
+        }
+        return 6;
+    }
+
+    var postsByDate = new Map();
+
+    // 将文章数据按日期分类
+    {{ range ((where .Site.RegularPages "Type" "posts"))  }}
+        var date = {{ .Date.Format "2006-01-02" }};
+        var postObj = new Map();
+        postObj.set("title", {{ .Title }});
+        postObj.set("link", {{ .RelPermalink }});
+
+        var data = postsByDate.get(date);
+        if (!data) {
+            data = new Map();
+            data.set("posts", []);
+        }
+        var posts = data.get("posts");
+        posts.push(postObj);
+        postsByDate.set(date, data);
+    {{- end -}}
+
+    var heatmapData = [];
+    for (const [date, data] of postsByDate.entries()) {
+        heatmapData.push([date, data.get("posts").length]);
+    }
+
+    var option = {
+        title: {
+            show: true,
+            top: 0,
+            left: 'center',
+            text: 'Languid Logs',
+            textStyle: {
+                color: '#ffc8c8',  // 粉色
+                fontFamily: '"Bubblegum Sans", serif', // 使用你的字体
+                fontWeight: 'bold',
+                fontSize: 24,  // 字体加大
+            },
+        },
+        legend: {
+            show: false,
+        },
+        visualMap: {
+            show: false,
+            min: 0,
+            max: Math.max(...heatmapData.map(item => item[1])), // 动态计算最大值
+            type: 'piecewise',
+            splitNumber: 3,
+            text: ['posts count', ''],
+            showLabel: false,
+            orient: 'horizontal',
+            left: 'center',
+            top: 0,
+            itemGap: 10,
+            inRange: { color: ['#ff9999', '#ffc7c7', '#ffe2e2'] },
+        },
+        calendar: {
+            top: 80,
+            left: 30,
+            right: 30,
+            cellSize: ['auto', 'auto'], // 使格子变为正方形
+            range: getDateRange(getMonthCount()),
+            itemStyle: {
+                color: 'transparent', // 去除格子的背景
+                borderWidth: 1, // 为边框添加宽度
+                borderColor: '#ffc8c8', // 粉色边框
+            },
+            yearLabel: {
+                show: false,
+            },
+            dayLabel: {
+                align: 'center',
+                nameMap: 'en',
+                color: '#ffc8c8',
+                fontFamily: 'inherit',
+                fontSize: 10, // 调整字体大小
+            },
+            monthLabel: {
+                nameMap: 'en',
+                color: '#ffc8c8',
+                fontFamily: 'inherit',
+                fontSize: 10, // 调整字体大小
+            },
+            splitLine: {
+                show: false,
+            },
+        },
+        tooltip: {
+            hideDelay: 1000,
+            enterable: true,
+            formatter: function(params) {
+                const date = params.data[0];
+                var content = `<span style="font-size: 1rem;">${date}</span>`;
+                const posts = postsByDate.get(date).get("posts");
+                for (const [i, post] of posts.entries()) {
+                    var link = post.get("link");
+                    var title = post.get("title");
+                    content += "<br>";
+                    content += `<a href="${link}" target="_blank">${title}</a>`;
+                }
+                return content;
+            }
+        },
+        series: {
+            type: 'heatmap',
+            coordinateSystem: 'calendar',
+            data: heatmapData
+        }
+    };
+
+    option && myChart.setOption(option);
+</script>
+<div id="searchbox" style="margin-top: 40px;">
     <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf "%s ↵" .Title) }}"
         aria-label="search" type="search" autocomplete="off" maxlength="64">
     <ul id="searchResults" aria-label="search results"></ul>

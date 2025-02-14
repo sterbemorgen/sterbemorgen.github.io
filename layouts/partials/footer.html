@@ -2,13 +2,16 @@
     <!-- Add total page and word count time -->
     <section class="totalcount">
         {{$scratch := newScratch}}
-        {{ range (where .Site.Pages "Kind" "page" )}}
-            {{$scratch.Add "total" .WordCount}}
+
+        {{ range (where .Site.Pages "Kind" "page") }}
+            {{ $content := .Plain }} <!-- 获取页面的纯文本内容 -->
+            {{ $wordCount := len (split $content " ") }} <!-- 根据空格分割文本，统计单词数 -->
+            {{$scratch.Add "total" $wordCount}} <!-- 将字数累加到总字数 -->
         {{ end }}
+
         Published {{ len (where .Site.RegularPages "Section" "posts") }} posts ·
         Totaling {{ div ($scratch.Get "total") 1000.0 | lang.FormatNumber 2 }}k words.
     </section>
-
     <section class="running-time">
         sterbe morgen has been running for&nbsp;
         <span id="running-time" class="running-time"></span>
