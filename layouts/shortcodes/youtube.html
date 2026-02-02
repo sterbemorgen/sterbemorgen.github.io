@@ -1,60 +1,57 @@
 {{- /*
-Renders an embedded YouTube video.
-Compatible with Hugo >= 0.125
+YouTube shortcode
+Stable for Hugo >= 0.125 (NO querify)
 */ -}}
 
 {{- $pc := .Page.Site.Config.Privacy.YouTube }}
 {{- if not $pc.Disable }}
   {{- with $id := or (.Get "id") (.Get 0) }}
 
-    {{- /* Defaults */ -}}
-    {{- $allowFullScreen := "allowfullscreen" }}
+    {{- /* defaults */ -}}
     {{- $autoplay := 0 }}
-    {{- $class := "" }}
     {{- $controls := 1 }}
-    {{- $end := 0 }}
-    {{- $loading := "eager" }}
     {{- $loop := 0 }}
     {{- $mute := 0 }}
     {{- $start := 0 }}
+    {{- $end := 0 }}
+    {{- $loading := "eager" }}
     {{- $title := "YouTube video" }}
+    {{- $class := "" }}
 
-    {{- /* Boolean args */ -}}
+    {{- /* booleans */ -}}
     {{- if in (slice "true" true 1) ($.Get "autoplay") }}{{ $autoplay = 1 }}{{ end }}
     {{- if in (slice "false" false 0) ($.Get "controls") }}{{ $controls = 0 }}{{ end }}
     {{- if in (slice "true" true 1) ($.Get "loop") }}{{ $loop = 1 }}{{ end }}
     {{- if or (in (slice "true" true 1) ($.Get "mute")) $autoplay }}{{ $mute = 1 }}{{ end }}
 
-    {{- /* Other args */ -}}
-    {{- $class = or ($.Get "class") $class }}
+    {{- /* other args */ -}}
+    {{- $start = or ($.Get "start") $start }}
     {{- $end = or ($.Get "end") $end }}
     {{- $loading = or ($.Get "loading") $loading }}
-    {{- $start = or ($.Get "start") $start }}
     {{- $title = or ($.Get "title") $title }}
+    {{- $class = or ($.Get "class") $class }}
 
-    {{- /* Base URL */ -}}
+    {{- /* base url */ -}}
     {{- $host := cond $pc.PrivacyEnhanced "www.youtube-nocookie.com" "www.youtube.com" }}
     {{- $src := printf "https://%s/embed/%s" $host $id }}
 
-    {{- /* Query params: MUST be map[string]string */ -}}
-    {{- $params := dict
-      "autoplay" (printf "%d" $autoplay)
-      "controls" (printf "%d" $controls)
-      "end" (printf "%d" $end)
-      "mute" (printf "%d" $mute)
-      "start" (printf "%d" $start)
-      "loop" (printf "%d" $loop)
+    {{- /* manual query string (NO querify) */ -}}
+    {{- $qs := slice
+        (printf "autoplay=%d" $autoplay)
+        (printf "controls=%d" $controls)
+        (printf "mute=%d" $mute)
+        (printf "start=%v" $start)
+        (printf "end=%v" $end)
+        (printf "loop=%d" $loop)
     }}
 
     {{- if eq $loop 1 }}
-      {{- $params = merge $params (dict "playlist" (printf "%s" $id)) }}
+      {{- $qs = append $qs (printf "playlist=%s" $id) }}
     {{- end }}
 
-    {{- with querify $params }}
-      {{- $src = printf "%s?%s" $src . }}
-    {{- end }}
+    {{- $src = printf "%s?%s" $src (delimit $qs "&") }}
 
-    {{- /* Styles */ -}}
+    {{- /* styles */ -}}
     {{- $divStyle := "position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" }}
     {{- $iframeStyle := "position:absolute;top:0;left:0;width:100%;height:100%;border:0;" }}
 
@@ -69,13 +66,13 @@ Compatible with Hugo >= 0.125
         loading="{{ $loading }}"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
-        {{- if $allowFullScreen }} allowfullscreen{{ end }}
+        allowfullscreen
         {{- with $iframeStyle }} style="{{ . | safeCSS }}"{{ end }}
         title="{{ $title }}"
       ></iframe>
     </div>
 
   {{- else }}
-    {{- errorf "The %q shortcode requires a YouTube id. See %s" .Name .Position }}
+    {{- errorf "youtube shortcode requires an id. See %s" .Position }}
   {{- end }}
 {{- end }}
