@@ -1,3 +1,5 @@
+rm hugo.yml
+
 cat > hugo.yml << 'EOF'
 baseURL: "https://sterbemorgen.netlify.app/"
 languageCode: "en-us"
@@ -19,7 +21,6 @@ params:
   ShowCodeCopyButtons: true
   comments: true
   defaultTheme: auto
-  preferred_color_scheme: auto
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowShareButtons: true
@@ -46,7 +47,7 @@ params:
     - name: "YouTube"
       url: "https://www.youtube.com/@sterbemorgen"
     - name: "email"
-      url: "Mailto:sterbemorgen@proton.me"
+      url: "mailto:sterbemorgen@proton.me"
 
   assets:
     favicon: "otter.png"
