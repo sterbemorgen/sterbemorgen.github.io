@@ -1,23 +1,52 @@
+cat > hugo.yml << 'EOF'
 baseURL: "https://sterbemorgen.netlify.app/"
 languageCode: "zh-cn"
-title: "我的网站"
+title: "Sterbemorgen"
 theme: "PaperMod"
 
 params:
   defaultTheme: "auto"
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
   
+  # 封面配置
+  profileMode:
+    enabled: true
+    title: "Welcome"
+    subtitle: "✨ My Personal Blog"
+    imageUrl: "/images/otter.gif"
+    imageTitle: "Otter"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Perusal
+        url: /perusal/
+      - name: Appreciation
+        url: /appreciation/
+  
+  # 社交图标
+  socialIcons:
+    - name: instagram
+      url: "https://www.instagram.com/siauyuih/"
+    - name: youtube
+      url: "https://www.youtube.com/@sterbemorgen"
+    - name: email
+      url: "sterbemorgen@proton.me"
+
 menu:
   main:
-    - identifier: archives
-      name: 归档
-      url: /archives/
+    - identifier: perusal
+      name: Perusal
+      url: /perusal/
       weight: 10
-    - identifier: search
-      name: 搜索
-      url: /search/
+    - identifier: appreciation
+      name: Appreciation
+      url: /appreciation/
       weight: 20
+    - identifier: introspective
+      name: Introspective
+      url: /introspective/
+      weight: 30
+    - identifier: existence
+      name: Existence
+      url: /existence/
+      weight: 40
+EOF
