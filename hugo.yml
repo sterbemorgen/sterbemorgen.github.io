@@ -1,10 +1,7 @@
-rm hugo.yml
-
-cat > hugo.yml << 'EOF'
-baseURL: "https://sterbemorgen.netlify.app/"
-languageCode: "en-us"
-title: "sterbe morgen"
-theme: "PaperMod"
+baseURL: https://sterbemorgen.netlify.app/
+languageCode: en-us
+title: sterbe morgen
+theme: PaperMod
 
 params:
   ShowWordCount: true
@@ -22,7 +19,7 @@ params:
   comments: true
   defaultTheme: auto
   disableThemeToggle: false
-  DateFormat: "2006-01-02"
+  DateFormat: 2006-01-02
   ShowShareButtons: true
   displayFullLangName: true
   ShowBreadCrumbs: true
@@ -34,59 +31,59 @@ params:
 
   profileMode:
     enabled: true
-    title: "Khonzy"
-    subtitle: "Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren."
-    imageUrl: "images/otter.gif"
-    imageTitle: "Otter"
+    title: Khonzy
+    subtitle: Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren.
+    imageUrl: images/otter.gif
+    imageTitle: Otter
     imageWidth: 120
     imageHeight: 120
 
   socialIcons:
-    - name: "instagram"
-      url: "https://www.instagram.com/siauyuih"
-    - name: "YouTube"
-      url: "https://www.youtube.com/@sterbemorgen"
-    - name: "email"
-      url: "mailto:sterbemorgen@proton.me"
+    - name: instagram
+      url: https://www.instagram.com/siauyuih
+    - name: YouTube
+      url: https://www.youtube.com/@sterbemorgen
+    - name: email
+      url: mailto:sterbemorgen@proton.me
 
   assets:
-    favicon: "otter.png"
-    favicon16x16: "otter.png"
-    favicon32x32: "otter.png"
-    apple_touch_icon: "otter.png"
-    safari_pinned_tab: "otter.png"
+    favicon: otter.png
+    favicon16x16: otter.png
+    favicon32x32: otter.png
+    apple_touch_icon: otter.png
+    safari_pinned_tab: otter.png
 
 menu:
   main:
     - identifier: about
       name: About
-      url: "/about"
+      url: /about
       weight: 10
     - identifier: NeoDB
       name: NeoDB
-      url: "/NeoDB"
+      url: /NeoDB
       weight: 20
     - identifier: archives
       name: Archives
-      url: "/archives"
+      url: /archives
       weight: 30
     - identifier: search
       name: Search
-      url: "/search"
+      url: /search
       weight: 40
   left-sidebar:
     - identifier: perusal
       name: Perusal
-      url: "/perusal"
+      url: /perusal
     - identifier: appreciation
       name: Appreciation
-      url: "/appreciation"
+      url: /appreciation
     - identifier: introspective
       name: Introspective
-      url: "/introspective"
+      url: /introspective
     - identifier: existence
       name: Existence
-      url: "/existence"
+      url: /existence
 
 outputs:
   home:
@@ -116,4 +113,3 @@ privacy:
   instagram:
     disabled: false
     simple: true
-EOF
