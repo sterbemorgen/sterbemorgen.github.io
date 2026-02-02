@@ -1,52 +1,118 @@
 cat > hugo.yml << 'EOF'
 baseURL: "https://sterbemorgen.netlify.app/"
-languageCode: "zh-cn"
-title: "Sterbemorgen"
+languageCode: "en-us"
+title: "sterbe morgen"
 theme: "PaperMod"
 
 params:
-  defaultTheme: "auto"
-  
-  # 封面配置
+  ShowWordCount: true
+  ShowReadingTime: true
+  hasCJKLanguage: true
+  enableInlineShortcodes: true
+  enableEmoji: true
+  enableRobotsTXT: true
+  buildDrafts: false
+  buildFuture: false
+  buildExpired: false
+  pygmentsUseClasses: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+  defaultTheme: auto
+  preferred_color_scheme: auto
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  hideFooter: false
+  VisitCount: true
+  ShowLastMod: true
+  ShowToc: true
+  TocOpen: true
+
   profileMode:
     enabled: true
-    title: "Welcome"
-    subtitle: "✨ My Personal Blog"
-    imageUrl: "/images/otter.gif"
+    title: "Khonzy"
+    subtitle: "Lebe trotz der Absurdität des Lebens, um es in seiner ganzen Fülle zu erfahren."
+    imageUrl: "images/otter.gif"
     imageTitle: "Otter"
-    imageWidth: 200
-    imageHeight: 200
-    buttons:
-      - name: Perusal
-        url: /perusal/
-      - name: Appreciation
-        url: /appreciation/
-  
-  # 社交图标
+    imageWidth: 120
+    imageHeight: 120
+
   socialIcons:
-    - name: instagram
-      url: "https://www.instagram.com/siauyuih/"
-    - name: youtube
+    - name: "instagram"
+      url: "https://www.instagram.com/siauyuih"
+    - name: "YouTube"
       url: "https://www.youtube.com/@sterbemorgen"
-    - name: email
-      url: "sterbemorgen@proton.me"
+    - name: "email"
+      url: "Mailto:sterbemorgen@proton.me"
+
+  assets:
+    favicon: "otter.png"
+    favicon16x16: "otter.png"
+    favicon32x32: "otter.png"
+    apple_touch_icon: "otter.png"
+    safari_pinned_tab: "otter.png"
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: "/about"
+      weight: 10
+    - identifier: NeoDB
+      name: NeoDB
+      url: "/NeoDB"
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: "/archives"
+      weight: 30
+    - identifier: search
+      name: Search
+      url: "/search"
+      weight: 40
+  left-sidebar:
     - identifier: perusal
       name: Perusal
-      url: /perusal/
-      weight: 10
+      url: "/perusal"
     - identifier: appreciation
       name: Appreciation
-      url: /appreciation/
-      weight: 20
+      url: "/appreciation"
     - identifier: introspective
       name: Introspective
-      url: /introspective/
-      weight: 30
+      url: "/introspective"
     - identifier: existence
       name: Existence
-      url: /existence/
-      weight: 40
+      url: "/existence"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: darcula
+
+privacy:
+  youTube:
+    disable: false
+    privacyEnhanced: true
+  instagram:
+    disabled: false
+    simple: true
 EOF
