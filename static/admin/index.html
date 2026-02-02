@@ -16,18 +16,10 @@
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function (user) {
       if (!user) {
-        window.netlifyIdentity.open();
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
       }
-    });
-
-    // 邀请用户 → 设置密码（signup）
-    window.netlifyIdentity.on("invite", function () {
-      window.netlifyIdentity.open("signup");
-    });
-
-    // 重设密码（recovery）
-    window.netlifyIdentity.on("recovery", function () {
-      window.netlifyIdentity.open("recovery");
     });
   }
 </script>
