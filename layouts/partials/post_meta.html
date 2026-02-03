@@ -15,33 +15,61 @@
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
+        {{- if eq (.Date.Format "15:04:05") "00:00:00" }}
+            {{/* 如果时间是 00:00:00，只显示日期 */}}
+            <span>{{- (.Date.Format "2006-01-02") }}</span>
+        {{- else }}
+            {{/* 否则显示完整日期时间 */}}
+            <span>{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
+        {{- end }}
         &nbsp;|&nbsp;
     </span>
     <span id="post_meta_style_2">
         <span class="fa fa-calendar-plus-o"></span>
         {{- if .GitInfo }}
-            <span>Updated on &nbsp;{{- (.GitInfo.Lastmod.Format "2006-01-02 15:04:05") }}</span>
+            {{- if eq (.GitInfo.AuthorDate.Format "15:04:05") "00:00:00" }}
+                <span>Updated on &nbsp;{{- (.GitInfo.AuthorDate.Format "2006-01-02") }}</span>
+            {{- else }}
+                <span>Updated on &nbsp;{{- (.GitInfo.AuthorDate.Format "2006-01-02 15:04:05") }}</span>
+            {{- end }}
         {{- else }}
-            <span>Updated on &nbsp;{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
+            {{- if eq (.Date.Format "15:04:05") "00:00:00" }}
+                <span>Updated on &nbsp;{{- (.Date.Format "2006-01-02") }}</span>
+            {{- else }}
+                <span>Updated on &nbsp;{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
+            {{- end }}
         {{- end }}
         &nbsp;|&nbsp;
     </span>
 
-
-
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>{{ len .Plain }} Characters</span>
+        {{- $content := .Plain }}
+        {{- $cjkCount := len (findRE "[\\p{Han}\\p{Hangul}\\p{Hiragana}\\p{Katakana}]" $content) }}
+        {{- $nonCJK := replaceRE "[\\p{Han}\\p{Hangul}\\p{Hiragana}\\p{Katakana}]" "" $content }}
+        {{- $latinWords := len (split (replaceRE "[^\\p{L}\\p{N}]+" " " $nonCJK) " ") }}
+        {{- if gt $latinWords 0 }}
+            {{- $latinWords = sub $latinWords 1 }}
+        {{- end }}
+        {{- $totalWords := add $cjkCount $latinWords }}
+        <span>{{ $totalWords }} Words</span>
         &nbsp;|&nbsp;
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>{{- math.Ceil (div (len .Plain) 500.0) }} min</span>
+        {{- $content := .Plain }}
+        {{- $cjkCount := len (findRE "[\\p{Han}\\p{Hangul}\\p{Hiragana}\\p{Katakana}]" $content) }}
+        {{- $nonCJK := replaceRE "[\\p{Han}\\p{Hangul}\\p{Hiragana}\\p{Katakana}]" "" $content }}
+        {{- $latinWords := len (split (replaceRE "[^\\p{L}\\p{N}]+" " " $nonCJK) " ") }}
+        {{- if gt $latinWords 0 }}
+            {{- $latinWords = sub $latinWords 1 }}
+        {{- end }}
+        {{- $totalWords := add $cjkCount $latinWords }}
+        {{- $readingTime := math.Ceil (div (float $totalWords) 250.0) }}
+        <span>{{ $readingTime }} min</span>
     </span>
     <span id="busuanzi_container_page_pv" style="display: none;">
         | Views: <span id="busuanzi_value_page_pv"></span>
     </span>
     <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </span>
-
