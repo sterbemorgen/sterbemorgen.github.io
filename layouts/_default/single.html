@@ -20,45 +20,7 @@
     </div>
     {{- end }}
     {{ if not .Params.hide_metadata }}
-    <style>
-        i[id*="post_meta_style"] {
-            display: flex;
-            align-items: center;
-            margin: 0 0 10px 0;
-        }
-
-        .parent-post-meta {
-            display: flex;
-            flex-wrap: wrap;
-            opacity: 0.8;
-        }
-    </style>
-
-    <span class="parent-post-meta">
-        <span id="post_meta_style_1">
-            <span class="fa fa-calendar-check-o"></span>
-            <span>{{- (.Date.Format "2006-01-02 15:04:05") }}</span>
-            &nbsp;|&nbsp;
-        </span>
-        <span id="post_meta_style_2">
-            <span class="fa fa-calendar-plus-o"></span>
-            <span>Updated on &nbsp;{{- (.Lastmod.Format "2006-01-02 15:04:05") }}</span>
-            &nbsp;|&nbsp;
-        </span>
-        <span id="post_meta_style_3">
-            <span class="fa fa-file-word-o"></span>
-            <span>{{ len .Plain }} Characters</span>
-            &nbsp;|&nbsp;
-        </span>
-        <span id="post_meta_style_4">
-            <span class="fa fa-clock-o"></span>
-            <span>{{- math.Ceil (div (len .Plain) 500.0) }} min</span>
-        </span>
-        <span id="busuanzi_container_page_pv" style="display: none;">
-            | Views: <span id="busuanzi_value_page_pv"></span>
-        </span>
-        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    </span>
+    {{- partial "post_meta.html" . -}}
     {{ end }}
 
   </header>

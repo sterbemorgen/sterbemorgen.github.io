@@ -2,6 +2,7 @@ baseURL: https://sterbemorgen.netlify.app/
 languageCode: en-us
 title: sterbe morgen
 theme: PaperMod
+enableGitInfo: true
 
 params:
   ShowWordCount: true
