@@ -1,12 +1,15 @@
 <div id="waline"></div>
 
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
-<script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
 
-<script>
-  Waline.init({
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
     el: '#waline',
     serverURL: 'https://waline-ruby-mu.vercel.app',
-    login: 'disable'
+    login: 'disable',
+    // 自动跟随 PaperMod 的深色模式
+    dark: 'html[class*="dark"]', 
   });
 </script>
