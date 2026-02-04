@@ -53,29 +53,7 @@ params:
     favicon32x32: otter.png
     apple_touch_icon: otter.png
     safari_pinned_tab: otter.png
-
-  # 改用 Cusdis 评论系统（不需要登录）
-  # 或者保留 Giscus，你选择
-  # cusdis:
-  #   host: https://cusdis.com
-  #   app_id: YOUR_APP_ID
   
-  # 当前的 Giscus 配置
-  giscus:
-    repo: "sterbemorgen/sterbemorgen.github.io"
-    repo_id: "R_kgDONvALpQ"
-    category: "Announcements"
-    category_id: "DIC_kwDONvALpc4CmT8P"
-    mapping: "pathname"
-    strict: false
-    reactions_enabled: true
-    emit_metadata: false
-    input_position: "bottom"
-    theme: "preferred_color_scheme"
-    lang: "en"
-    crossorigin: "anonymous"
-    async: true
-
 menu:
   main:
     - identifier: about
