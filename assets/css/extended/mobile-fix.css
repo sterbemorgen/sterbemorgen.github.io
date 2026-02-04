@@ -1,0 +1,74 @@
+/* 移动端修复 CSS - 放在 assets/css/extended/mobile-fix.css */
+
+/* 修复移动端三栏布局问题 */
+@media screen and (max-width: 768px) {
+    /* 隐藏侧边栏 */
+    #sideContainer {
+        display: none !important;
+    }
+    
+    /* 主内容区域占满宽度 */
+    .main,
+    .container {
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 16px !important;
+    }
+    
+    /* 文章内容宽度 */
+    .post-single {
+        max-width: 100% !important;
+    }
+    
+    /* shortcode 容器响应式 */
+    .post-content iframe,
+    .post-content embed,
+    .post-content object {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* YouTube shortcode */
+    .youtube-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        overflow: hidden;
+    }
+    
+    .youtube-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    /* Apple Music / Spotify embed */
+    iframe[src*="music.apple.com"],
+    iframe[src*="spotify.com"] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* NeoDB 卡片 */
+    .neodb-card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* 图片响应式 */
+    .post-content img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* 表格横向滚动 */
+    .post-content table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* viewport 缩放设置已在 head.html 中 */

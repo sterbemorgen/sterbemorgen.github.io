@@ -54,37 +54,63 @@ params:
     apple_touch_icon: otter.png
     safari_pinned_tab: otter.png
 
+  # 改用 Cusdis 评论系统（不需要登录）
+  # 或者保留 Giscus，你选择
+  # cusdis:
+  #   host: https://cusdis.com
+  #   app_id: YOUR_APP_ID
+  
+  # 当前的 Giscus 配置
+  giscus:
+    repo: "sterbemorgen/sterbemorgen.github.io"
+    repo_id: "R_kgDONvALpQ"
+    category: "Announcements"
+    category_id: "DIC_kwDONvALpc4CmT8P"
+    mapping: "pathname"
+    strict: false
+    reactions_enabled: true
+    emit_metadata: false
+    input_position: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "en"
+    crossorigin: "anonymous"
+    async: true
+
 menu:
   main:
     - identifier: about
       name: About
-      url: /about
+      url: /about/
       weight: 10
     - identifier: NeoDB
       name: NeoDB
-      url: /NeoDB
+      url: /NeoDB/
       weight: 20
     - identifier: archives
       name: Archives
-      url: /archives
+      url: /archives/
       weight: 30
     - identifier: search
       name: Search
-      url: /search
+      url: /search/
       weight: 40
   left-sidebar:
     - identifier: perusal
       name: Perusal
-      url: /perusal
+      url: /series/perusal/  # 修复：链接到系列列表页
+      weight: 10
     - identifier: appreciation
       name: Appreciation
-      url: /appreciation
+      url: /series/appreciation/
+      weight: 20
     - identifier: introspective
       name: Introspective
-      url: /introspective
+      url: /series/introspective/
+      weight: 30
     - identifier: existence
       name: Existence
-      url: /existence
+      url: /series/existence/
+      weight: 40
 
 outputs:
   home:
@@ -95,7 +121,7 @@ outputs:
 taxonomies:
   category: categories
   tag: tags
-  series: series
+  series: series  # 使用 series 来管理四个分类
 
 markup:
   goldmark:

@@ -1,35 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-  <!-- Comments area start -->
-  <div id="giscus-container">
-    <script src="https://giscus.app/client.js"
-      data-repo="sterbemorgen/sterbemorgen.github.io"
-      data-repo-id="R_kgDONvALpQ"
-      data-category="Announcements"
-      data-category-id="DIC_kwDONvALpc4CmT8P"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="bottom"
-      data-theme="preferred_color_scheme"
-      data-lang="en"
-      crossorigin="anonymous"
-      async>
-    </script>
-  </div>
-  <!-- Comments area end -->
-</body>
-</html>
+{{- /* Cusdis Comments - 不需要登录的评论系统 */ -}}
+{{- if .Site.Params.cusdis.host }}
+<div id="cusdis_thread"
+  data-host="{{ .Site.Params.cusdis.host }}"
+  data-app-id="{{ .Site.Params.cusdis.app_id }}"
+  data-page-id="{{ .File.ContentBaseName }}"
+  data-page-url="{{ .Permalink }}"
+  data-page-title="{{ .Title }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<style>
+#cusdis_thread {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--entry);
+  border-radius: 8px;
+}
+</style>
+
+{{- else if .Site.Params.giscus }}
+{{- /* 保留原来的 Giscus */ -}}
+<script src="https://giscus.app/client.js"
+        data-repo="{{ .Site.Params.giscus.repo }}"
+        data-repo-id="{{ .Site.Params.giscus.repo_id }}"
+        data-category="{{ .Site.Params.giscus.category }}"
+        data-category-id="{{ .Site.Params.giscus.category_id }}"
+        data-mapping="{{ .Site.Params.giscus.mapping | default "pathname" }}"
+        data-strict="{{ .Site.Params.giscus.strict | default "0" }}"
+        data-reactions-enabled="{{ .Site.Params.giscus.reactions_enabled | default "1" }}"
+        data-emit-metadata="{{ .Site.Params.giscus.emit_metadata | default "0" }}"
+        data-input-position="{{ .Site.Params.giscus.input_position | default "bottom" }}"
+        data-theme="{{ .Site.Params.giscus.theme | default "preferred_color_scheme" }}"
+        data-lang="{{ .Site.Params.giscus.lang | default "en" }}"
+        crossorigin="anonymous"
+        async>
+</script>
+{{- end }}

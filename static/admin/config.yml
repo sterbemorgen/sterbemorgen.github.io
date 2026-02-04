@@ -10,7 +10,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "perusal"
     label: "Perusal"
-    folder: "content/perusal"
+    folder: "content/posts/perusal"  # 统一路径到 posts 下
     create: true
     slug: "{{slug}}"
     fields:
@@ -19,11 +19,22 @@ collections:
       - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Series", name: "series", widget: "list", default: ["perusal"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Shortcodes"
+        name: "shortcode_helper"
+        widget: "select"
+        required: false
+        options:
+          - { label: "YouTube", value: "{{< youtube VIDEO_ID >}}" }
+          - { label: "Apple Music", value: "{{< applemusic \"COUNTRY/TYPE/ID\" >}}" }
+          - { label: "Spotify", value: "{{< spotify type=\"track\" id=\"SPOTIFY_ID\" >}}" }
+          - { label: "NeoDB", value: "{{< neodb \"NEODB_URL\" >}}" }
+        hint: "复制对应的 shortcode 模板，替换其中的 ID"
 
   - name: "appreciation"
     label: "Appreciation"
-    folder: "content/appreciation"
+    folder: "content/posts/appreciation"
     create: true
     slug: "{{slug}}"
     fields:
@@ -32,11 +43,12 @@ collections:
       - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Series", name: "series", widget: "list", default: ["appreciation"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "introspective"
     label: "Introspective"
-    folder: "content/introspective"
+    folder: "content/posts/introspective"
     create: true
     slug: "{{slug}}"
     fields:
@@ -45,11 +57,12 @@ collections:
       - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Series", name: "series", widget: "list", default: ["introspective"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "existence"
     label: "Existence"
-    folder: "content/existence"
+    folder: "content/posts/existence"
     create: true
     slug: "{{slug}}"
     fields:
@@ -58,4 +71,5 @@ collections:
       - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Series", name: "series", widget: "list", default: ["existence"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
