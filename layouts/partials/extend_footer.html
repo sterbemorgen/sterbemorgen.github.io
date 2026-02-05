@@ -1,9 +1,5 @@
 {{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
-<section class="running-time">
-     <span id="running-time"></span>
-</section>
-
+{{- /* 网站运行时间计算脚本 */ -}}
 <script>
     function timeSince(date) {
         const now = new Date();
@@ -24,10 +20,15 @@
     const blogLaunchDate = '2023-04-28T00:00:00+09:00'; // Japan's timezone UTC+9
 
     function updateRunningTime() {
-        document.getElementById('running-time').textContent = timeSince(blogLaunchDate);
+        const element = document.getElementById('running-time');
+        if (element) {
+            element.textContent = timeSince(blogLaunchDate);
+        }
     }
 
-    // Update every second
+    // 页面加载完成后立即更新一次
+    updateRunningTime();
+    // 然后每秒更新
     setInterval(updateRunningTime, 1000);
 </script>
 {{- /* Footer custom content area end */ -}}

@@ -6,6 +6,7 @@ enableGitInfo: true
 
 params:
   ShowWordCount: true
+  hasCJKLanguage: true
   ShowReadingTime: true
   hasCJKLanguage: true
   enableInlineShortcodes: true
@@ -75,19 +76,19 @@ menu:
   left-sidebar:
     - identifier: perusal
       name: Perusal
-      url: /series/perusal/  # 修复：链接到系列列表页
+      url: /categories/perusal/
       weight: 10
     - identifier: appreciation
       name: Appreciation
-      url: /series/appreciation/
+      url: /categories/appreciation/
       weight: 20
     - identifier: introspective
       name: Introspective
-      url: /series/introspective/
+      url: /categories/introspective/
       weight: 30
     - identifier: existence
       name: Existence
-      url: /series/existence/
+      url: /categories/existence/
       weight: 40
 
 outputs:
@@ -96,10 +97,10 @@ outputs:
     - RSS
     - JSON
 
+# 使用 categories 分类系统
 taxonomies:
   category: categories
   tag: tags
-  series: series  # 使用 series 来管理四个分类
 
 markup:
   goldmark:

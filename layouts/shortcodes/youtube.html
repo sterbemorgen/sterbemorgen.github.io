@@ -1,78 +1,15 @@
-{{- /*
-YouTube shortcode
-Stable for Hugo >= 0.125 (NO querify)
-*/ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $title := .Get "title" | default (.Get "id") | default "YouTube video player" -}}
 
-{{- $pc := .Page.Site.Config.Privacy.YouTube }}
-{{- if not $pc.Disable }}
-  {{- with $id := or (.Get "id") (.Get 0) }}
-
-    {{- /* defaults */ -}}
-    {{- $autoplay := 0 }}
-    {{- $controls := 1 }}
-    {{- $loop := 0 }}
-    {{- $mute := 0 }}
-    {{- $start := 0 }}
-    {{- $end := 0 }}
-    {{- $loading := "eager" }}
-    {{- $title := "YouTube video" }}
-    {{- $class := "" }}
-
-    {{- /* booleans */ -}}
-    {{- if in (slice "true" true 1) ($.Get "autoplay") }}{{ $autoplay = 1 }}{{ end }}
-    {{- if in (slice "false" false 0) ($.Get "controls") }}{{ $controls = 0 }}{{ end }}
-    {{- if in (slice "true" true 1) ($.Get "loop") }}{{ $loop = 1 }}{{ end }}
-    {{- if or (in (slice "true" true 1) ($.Get "mute")) $autoplay }}{{ $mute = 1 }}{{ end }}
-
-    {{- /* other args */ -}}
-    {{- $start = or ($.Get "start") $start }}
-    {{- $end = or ($.Get "end") $end }}
-    {{- $loading = or ($.Get "loading") $loading }}
-    {{- $title = or ($.Get "title") $title }}
-    {{- $class = or ($.Get "class") $class }}
-
-    {{- /* base url */ -}}
-    {{- $host := cond $pc.PrivacyEnhanced "www.youtube-nocookie.com" "www.youtube.com" }}
-    {{- $src := printf "https://%s/embed/%s" $host $id }}
-
-    {{- /* manual query string (NO querify) */ -}}
-    {{- $qs := slice
-        (printf "autoplay=%d" $autoplay)
-        (printf "controls=%d" $controls)
-        (printf "mute=%d" $mute)
-        (printf "start=%v" $start)
-        (printf "end=%v" $end)
-        (printf "loop=%d" $loop)
-    }}
-
-    {{- if eq $loop 1 }}
-      {{- $qs = append $qs (printf "playlist=%s" $id) }}
-    {{- end }}
-
-    {{- $src = printf "%s?%s" $src (delimit $qs "&") }}
-
-    {{- /* styles */ -}}
-    {{- $divStyle := "position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" }}
-    {{- $iframeStyle := "position:absolute;top:0;left:0;width:100%;height:100%;border:0;" }}
-
-    {{- if $class }}
-      {{- $divStyle = "" }}
-      {{- $iframeStyle = "" }}
-    {{- end }}
-
-    <div{{ with $class }} class="{{ . }}"{{ end }}{{ with $divStyle }} style="{{ . | safeCSS }}"{{ end }}>
-      <iframe
-        src="{{ $src }}"
-        loading="{{ $loading }}"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-        {{- with $iframeStyle }} style="{{ . | safeCSS }}"{{ end }}
+<div class="youtube-container {{ $class }}">
+    <iframe 
+        src="https://www.youtube-nocookie.com/embed/{{ $id }}" 
         title="{{ $title }}"
-      ></iframe>
-    </div>
-
-  {{- else }}
-    {{- errorf "youtube shortcode requires an id. See %s" .Position }}
-  {{- end }}
-{{- end }}
+        style="aspect-ratio: 16 / 9; width: 100%; height: auto;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen
+        loading="lazy">
+    </iframe>
+</div>

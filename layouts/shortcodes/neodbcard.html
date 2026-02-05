@@ -15,21 +15,106 @@
 
 {{ if $dbFetch }}
     {{ $itemRating := 0 }}{{ with $dbFetch.rating }}{{ $itemRating = . }}{{ end }}
-    <div class="db-card">
-        <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.cover_image_url }}"></div>
-        <div class="db-card-content">
-            <div class="db-card-title"><a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.title }}</a></div>
-            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
-            <div class="db-card-abstract">{{ $dbFetch.brief }}</div>
+    <div class="neodb-card-container">
+        <div class="db-card">
+            <div class="db-card-post">
+                <img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.cover_image_url }}" alt="{{ $dbFetch.title }}">
+            </div>
+            <div class="db-card-content">
+                <div class="db-card-title">
+                    <a href="{{ $dbUrl }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.title }}</a>
+                </div>
+                <div class="rating">
+                    <span class="allstardark">
+                        <span class="allstarlight" style="width:{{mul 10 $itemRating }}%"></span>
+                    </span>
+                    <span class="rating_nums">{{ $itemRating }}</span>
+                </div>
+                <div class="db-card-abstract">{{ $dbFetch.brief }}</div>
+            </div>
+            <div class="db-card-cate">{{ $dbFetch.category }}</div>
         </div>
-        <div class="db-card-cate">{{ $dbFetch.category }}</div>
     </div>
-
-    <!-- Conditionally apply the .post-footer styling -->
-    <div class="post-footer" style="margin-top: 56px; width: 50%; margin-left: auto; margin-right: auto;">
-        <!-- Footer content goes here -->
-    </div>
-
 {{ else }}
-    <p style="text-align: center;"><small>远程获取内容失败，请检查 API 有效性。</small></p>
+    <p style="text-align: center;"><small>远程获取内容失败,请检查 API 有效性。</small></p>
 {{ end }}
+
+<style>
+    /* 基础容器样式 */
+    .neodb-card-container {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    /* 移动端优化 */
+    @media screen and (max-width: 768px) {
+        .neodb-card-container {
+            max-width: 100%;
+            margin: 20px 0;
+        }
+
+        .db-card {
+            display: flex;
+            flex-direction: column;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        .db-card-post {
+            width: 100% !important;
+            max-width: 100% !important;
+            flex: none !important;
+        }
+
+        .db-card-post img {
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            object-fit: cover;
+        }
+
+        .db-card-content {
+            width: 100% !important;
+            padding: 15px !important;
+        }
+
+        .db-card-title {
+            font-size: 16px !important;
+            margin-bottom: 10px;
+        }
+
+        .db-card-abstract {
+            font-size: 14px !important;
+            line-height: 1.6;
+        }
+
+        .db-card-cate {
+            font-size: 12px !important;
+            padding: 8px !important;
+        }
+
+        .rating {
+            margin: 10px 0;
+        }
+    }
+
+    /* 小屏手机优化 */
+    @media screen and (max-width: 375px) {
+        .db-card-title {
+            font-size: 15px !important;
+        }
+
+        .db-card-abstract {
+            font-size: 13px !important;
+        }
+    }
+
+    /* 平板优化 */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .neodb-card-container {
+            max-width: 80%;
+        }
+    }
+</style>
