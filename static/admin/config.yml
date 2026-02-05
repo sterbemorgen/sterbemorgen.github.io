@@ -9,67 +9,89 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "perusal"
-    label: "Perusal"
-    folder: "content/posts/perusal"  # 统一路径到 posts 下
+    label: "📖 Perusal (阅读)"
+    folder: "content/posts/perusal"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Series", name: "series", widget: "list", default: ["perusal"], required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Shortcodes"
-        name: "shortcode_helper"
+      - { label: "📝 标题", name: "title", widget: "string" }
+      - { label: "📅 发布日期", name: "date", widget: "datetime" }
+      - { label: "🏷️ 标签 (可选)", name: "tags", widget: "list", required: false, hint: "按回车添加多个标签" }
+      - { label: "✍️ 正文", name: "body", widget: "markdown" }
+      - label: "🎬 插入媒体 (可选)"
+        name: "shortcode_note"
         widget: "select"
         required: false
+        hint: "选择后复制代码，粘贴到正文中，然后替换其中的ID"
         options:
-          - { label: "YouTube", value: "{{< youtube VIDEO_ID >}}" }
-          - { label: "Apple Music", value: "{{< applemusic \"COUNTRY/TYPE/ID\" >}}" }
-          - { label: "Spotify", value: "{{< spotify type=\"track\" id=\"SPOTIFY_ID\" >}}" }
-          - { label: "NeoDB", value: "{{< neodb \"NEODB_URL\" >}}" }
-        hint: "复制对应的 shortcode 模板，替换其中的 ID"
+          - { label: "YouTube 视频 - 复制: {{< youtube 视频ID >}}", value: "youtube" }
+          - { label: "Apple Music - 复制: {{< applemusic \"地区/类型/ID\" >}}", value: "applemusic" }
+          - { label: "Spotify - 复制: {{< spotify type=\"track\" id=\"歌曲ID\" >}}", value: "spotify" }
+          - { label: "NeoDB 书影音 - 复制: {{< neodb \"完整URL\" >}}", value: "neodb" }
+      - { label: "分类 (自动设置)", name: "categories", widget: "hidden", default: ["perusal"] }
 
   - name: "appreciation"
-    label: "Appreciation"
+    label: "💖 Appreciation (欣赏)"
     folder: "content/posts/appreciation"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Series", name: "series", widget: "list", default: ["appreciation"], required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "📝 标题", name: "title", widget: "string" }
+      - { label: "📅 发布日期", name: "date", widget: "datetime" }
+      - { label: "🏷️ 标签 (可选)", name: "tags", widget: "list", required: false, hint: "按回车添加多个标签" }
+      - { label: "✍️ 正文", name: "body", widget: "markdown" }
+      - label: "🎬 插入媒体 (可选)"
+        name: "shortcode_note"
+        widget: "select"
+        required: false
+        hint: "选择后复制代码，粘贴到正文中，然后替换其中的ID"
+        options:
+          - { label: "YouTube 视频 - 复制: {{< youtube 视频ID >}}", value: "youtube" }
+          - { label: "Apple Music - 复制: {{< applemusic \"地区/类型/ID\" >}}", value: "applemusic" }
+          - { label: "Spotify - 复制: {{< spotify type=\"track\" id=\"歌曲ID\" >}}", value: "spotify" }
+          - { label: "NeoDB 书影音 - 复制: {{< neodb \"完整URL\" >}}", value: "neodb" }
+      - { label: "分类 (自动设置)", name: "categories", widget: "hidden", default: ["appreciation"] }
 
   - name: "introspective"
-    label: "Introspective"
+    label: "🤔 Introspective (反思)"
     folder: "content/posts/introspective"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Series", name: "series", widget: "list", default: ["introspective"], required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "📝 标题", name: "title", widget: "string" }
+      - { label: "📅 发布日期", name: "date", widget: "datetime" }
+      - { label: "🏷️ 标签 (可选)", name: "tags", widget: "list", required: false, hint: "按回车添加多个标签" }
+      - { label: "✍️ 正文", name: "body", widget: "markdown" }
+      - label: "🎬 插入媒体 (可选)"
+        name: "shortcode_note"
+        widget: "select"
+        required: false
+        hint: "选择后复制代码，粘贴到正文中，然后替换其中的ID"
+        options:
+          - { label: "YouTube 视频 - 复制: {{< youtube 视频ID >}}", value: "youtube" }
+          - { label: "Apple Music - 复制: {{< applemusic \"地区/类型/ID\" >}}", value: "applemusic" }
+          - { label: "Spotify - 复制: {{< spotify type=\"track\" id=\"歌曲ID\" >}}", value: "spotify" }
+          - { label: "NeoDB 书影音 - 复制: {{< neodb \"完整URL\" >}}", value: "neodb" }
+      - { label: "分类 (自动设置)", name: "categories", widget: "hidden", default: ["introspective"] }
 
   - name: "existence"
-    label: "Existence"
+    label: "🌟 Existence (存在)"
     folder: "content/posts/existence"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Series", name: "series", widget: "list", default: ["existence"], required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "📝 标题", name: "title", widget: "string" }
+      - { label: "📅 发布日期", name: "date", widget: "datetime" }
+      - { label: "🏷️ 标签 (可选)", name: "tags", widget: "list", required: false, hint: "按回车添加多个标签" }
+      - { label: "✍️ 正文", name: "body", widget: "markdown" }
+      - label: "🎬 插入媒体 (可选)"
+        name: "shortcode_note"
+        widget: "select"
+        required: false
+        hint: "选择后复制代码，粘贴到正文中，然后替换其中的ID"
+        options:
+          - { label: "YouTube 视频 - 复制: {{< youtube 视频ID >}}", value: "youtube" }
+          - { label: "Apple Music - 复制: {{< applemusic \"地区/类型/ID\" >}}", value: "applemusic" }
+          - { label: "Spotify - 复制: {{< spotify type=\"track\" id=\"歌曲ID\" >}}", value: "spotify" }
+          - { label: "NeoDB 书影音 - 复制: {{< neodb \"完整URL\" >}}", value: "neodb" }
+      - { label: "分类 (自动设置)", name: "categories", widget: "hidden", default: ["existence"] }

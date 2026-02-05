@@ -3,7 +3,7 @@
 title: "笹川真生 2nd Album「サニーサイドへようこそ」STUDIO LIVE SESSION at hmc studio"
 summary: 
 date: 2024-04-29
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["music"]
 ---

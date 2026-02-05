@@ -3,7 +3,7 @@
 title: "SCOTT & BAILEY"
 summary: 
 date: 2023-04-28
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["movies"]
 ---

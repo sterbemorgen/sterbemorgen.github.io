@@ -3,7 +3,7 @@ title: "what I've been eating lately"
 date: 2023-10-24
 lastmod: 2023-10-24
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

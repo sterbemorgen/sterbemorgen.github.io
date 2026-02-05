@@ -3,7 +3,7 @@ title: "Monday"
 date: 2023-05-15
 lastmod: 2023-05-15
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["teaser"]
 ---

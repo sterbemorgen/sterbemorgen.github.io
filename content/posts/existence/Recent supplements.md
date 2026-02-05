@@ -3,7 +3,7 @@ title: "Recent supplements"
 date: 2023-10-17
 lastmod: 2023-10-17
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

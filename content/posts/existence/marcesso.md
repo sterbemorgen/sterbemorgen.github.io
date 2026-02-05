@@ -3,7 +3,7 @@ title: "marcesso"
 date: 2023-06-11
 lastmod: 2023-06-11
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["hana"]
 ---

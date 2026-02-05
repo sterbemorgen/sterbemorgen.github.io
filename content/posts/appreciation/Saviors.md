@@ -3,7 +3,7 @@
 title: "Saviors"
 summary: 
 date: 2024-01-20
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["music"]
 ---

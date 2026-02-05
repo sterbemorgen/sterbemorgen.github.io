@@ -3,7 +3,7 @@
 title: "Purple Bird"
 summary: 
 date: 2024-04-30
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["music"]
 ---

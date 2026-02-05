@@ -3,7 +3,7 @@ title: "ichijiki"
 date: 2023-06-12
 lastmod: 2023-06-12
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

@@ -3,7 +3,7 @@ title: "A hasty breakfast"
 date: 2023-06-16
 lastmod: 2023-06-16
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

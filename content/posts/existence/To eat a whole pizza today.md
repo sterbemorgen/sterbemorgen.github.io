@@ -3,7 +3,7 @@ title: "To eat a whole pizza today"
 date: 2023-10-25
 lastmod: 2023-10-25
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

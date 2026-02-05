@@ -8,14 +8,31 @@
     font-style: normal;
 }
 
-/* 应用字体样式示例 */
+/* 应用字体样式 */
 body {
     font-family: "Bubblegum Sans", serif;
+    padding-top: var(--header-height);
 }
 
 h1, h2, h3 {
     font-family: "Bubblegum Sans", serif;
 }
+
+/* 固定顶部导航栏 - 完全透明 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+/* 确保主内容区域正确显示 */
+.main {
+    margin-top: 0;
+}
+
 // 为代码块顶部添加macos样式
 .article-content {
     .highlight:before {

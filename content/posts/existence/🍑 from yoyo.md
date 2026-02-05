@@ -3,7 +3,7 @@ title: "🍑 from yoyo"
 date: 2023-07-28
 lastmod: 2023-07-28
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["unboxing"]
 ---

@@ -3,7 +3,7 @@
 title: "sad girl summer"
 summary: 
 date: 2025-02-14
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["music"]
 ---

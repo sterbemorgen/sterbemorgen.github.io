@@ -3,7 +3,7 @@ title: "Prunus salicina"
 date: 2023-08-15
 lastmod: 2023-08-15
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

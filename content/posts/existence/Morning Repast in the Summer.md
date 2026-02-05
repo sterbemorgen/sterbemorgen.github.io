@@ -3,7 +3,7 @@ title: "Morning Repast in the Summer"
 date: 2023-06-13
 lastmod: 2023-06-13
 description: 
-series: ["existence"]
+categories: ["existence"]
 aliases: ["/existence"]
 tags: ["repast"]
 ---

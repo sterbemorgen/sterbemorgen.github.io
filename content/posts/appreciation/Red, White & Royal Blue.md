@@ -3,7 +3,7 @@
 title: "Red, White & Royal Blue"
 summary: 
 date: 2023-04-12
-series: ["appreciation"]
+categories: ["appreciation"]
 aliases: ["/appreciation"]
 tags: ["movies"]
 ---
