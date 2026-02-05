@@ -1,0 +1,147 @@
+/* Movie Card Styles */
+.db-card {
+    position: relative;
+    margin: 2.5rem 3rem;
+    background: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 #00000053;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px;
+}
+
+.db-card-subject{
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.6;
+    padding: 12px;
+    position: relative;
+}
+
+.db-card-post {
+    width: 15%;
+    height: auto;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.db-card-post img {
+    width: 15%;
+    height: auto%;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    object-fit: cover；
+    -o-object-fit: cover;
+    margin-top: 12px;
+}
+
+.db-card-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* 隐藏溢出内容 */
+}
+
+.db-card-title a {
+    font-size: 14px;
+    color: var(--card-text-color-main);
+    display: inline;
+    padding: 2px 4px;
+    transition: background-color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.db-card-title a:active,
+.db-card-title a:hover,
+.db-card-title a::selection {
+    background-color: #e85298; /* 点击和选中时的背景色 */
+    border-bottom-color: var(--card-text-color-main);  /* 让底部线的颜色同步变化 */
+    color: white; /* 选中时可以让文字变白，看起来更清晰（可选） */
+}
+
+.db-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.db-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.db-card-cate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e85298;
+    padding: 1px 8px;
+    font-size: small;
+    font-style: italic;
+    border-radius: 0 8px 0 8px;
+    text-transform: capitalize;
+}
+
+.rating {
+    margin: 0 0 5px;
+    font-size: 13px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.rating .allstardark {
+    position: relative;
+    color: #e85298;
+    height: 16px;
+    width: 80px;
+    background-size: auto 100%;
+    margin-right: 8px;
+    background-repeat: repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6IiBmaWxsPSIjZWVlIi8+PC9zdmc+');
+}
+
+.rating .allstarlight{
+  position: absolute;
+  left: 0;
+  color: #e85298;
+  height:16px;
+  overflow: hidden;
+  background-size: auto 100%;
+  background-repeat: repeat;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6IiBmaWxsPSIjZjlhOGQ0Ii8+PC9zdmc+);
+}
+
+.db-card-abstract {
+    font-size:13px;
+    overflow: auto;
+    max-height:100px;
+    color: var(--card-text-color-main);
+}
+
+.db-card-abstract::-webkit-scrollbar {
+    display: none; /* Chrome & Safari */
+}
+
+@media (max-width: 600px) {
+    .db-card {
+        margin: 0.5rem;
+        padding: 0.75rem;
+    }
+    
+    .db-card-post {
+        width: 90px;
+        height: 120px;
+    }
+    
+    .db-card-title {
+        font-size: 16px;
+    }
+    
+    .db-card-abstract {
+        font-size: 13px;
+    }
+
+    .rating .allstardark {
+        width: 100px; /* 移动端稍微窄一点 */
+    }
+}
