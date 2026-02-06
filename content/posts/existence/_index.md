@@ -1,5 +1,0 @@
----
-title: existence
-summary: 
-description: 
----
